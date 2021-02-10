@@ -173,215 +173,85 @@ const song12 = {
   cover: './images/cover/12.jpg'
 }
 
-
+const reproduction1Controls = document.getElementById('reproductor')
 
 
 function remplazarSong1() {
   imageSong.src = song1.cover;
   nameSong.textContent = song1.name
   artista.textContent = song1.artist
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" autoplay></audio>'
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  reproduction1Controls.innerHTML = '<audio src="./music/1.mp3" id="audio1" autoplay controls></audio>'
 };
 
 function remplazarSong2() {
   imageSong.src = song2.cover;
   nameSong.textContent = song2.name
   artista.textContent = song2.artist
-   audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2" autoplay></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2"  autoplay controls></audio>'
+
 };
 
 function remplazarSong3() {
   imageSong.src = song3.cover;
   nameSong.textContent = song3.name
   artista.textContent = song3.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" autoplay></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  reproduction1Controls.innerHTML = '<audio src="./music/3.mp3" id="audio3"  autoplay controls></audio>'
+
 };
 function remplazarSong4() {
-   imageSong.src = song4.cover;
-   nameSong.textContent = song4.name
-   artista.textContent = song4.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" autoplay></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song4.cover;
+  nameSong.textContent = song4.name
+  artista.textContent = song4.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/4.mp3" id="audio4"  autoplay controls></audio>'
 };
 function remplazarSong5() {
-   imageSong.src = song5.cover;
-   nameSong.textContent = song5.name
-   artista.textContent = song5.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" autoplay></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song5.cover;
+  nameSong.textContent = song5.name
+  artista.textContent = song5.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/5.mp3" id="audio5"  autoplay controls></audio>'
 };
 function remplazarSong6() {
-   imageSong.src = song6.cover;
-   nameSong.textContent = song6.name
-   artista.textContent = song6.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" autoplay></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song6.cover;
+  nameSong.textContent = song6.name
+  artista.textContent = song6.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/6.mp3" id="audio6"  autoplay controls></audio>'
 };
 function remplazarSong7() {
-   imageSong.src = song7.cover;
-   nameSong.textContent = song7.name
-   artista.textContent = song7.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" autoplay></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song7.cover;
+  nameSong.textContent = song7.name
+  artista.textContent = song7.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/7.mp3" id="audio7"  autoplay controls></audio>'
 };
 function remplazarSong8() {
-   imageSong.src = song8.cover;
-   nameSong.textContent = song8.name
-   artista.textContent = song8.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" autoplay></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song8.cover;
+  nameSong.textContent = song8.name
+  artista.textContent = song8.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/8.mp3" id="audio8"  autoplay controls></audio>'
 };
 function remplazarSong9() {
-   imageSong.src = song9.cover;
-   nameSong.textContent = song9.name
-   artista.textContent = song9.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" autoplay></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song9.cover;
+  nameSong.textContent = song9.name
+  artista.textContent = song9.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/9.mp3" id="audio9"  autoplay controls></audio>'
 };
 function remplazarSong10() {
-   imageSong.src = song10.cover;
-   nameSong.textContent = song10.name
-   artista.textContent = song10.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" autoplay></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song10.cover;
+  nameSong.textContent = song10.name
+  artista.textContent = song10.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/10.mp3" id="audio10"  autoplay controls></audio>'
 };
 function remplazarSong11() {
-   imageSong.src = song11.cover;
-   nameSong.textContent = song11.name
-   artista.textContent = song11.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" autoplay></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" ></audio>'
+  imageSong.src = song11.cover;
+  nameSong.textContent = song11.name
+  artista.textContent = song11.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/11.mp3" id="audio11"  autoplay controls></audio>'
 };
 
 function remplazarSong12() {
-   imageSong.src = song12.cover;
-   nameSong.textContent = song12.name
-   artista.textContent = song12.artist
-  audio2.innerHTML = '<audio src="./music/2.mp3" id="audio2"></audio>'
-  audio1.innerHTML = '<audio src="./music/1.mp3" id="audio1" ></audio>'
-  audio3.innerHTML = '<audio src="./music/3.mp3" id="audio3" ></audio>'
-  audio4.innerHTML = '<audio src="./music/4.mp3" id="audio4" ></audio>'
-  audio5.innerHTML = '<audio src="./music/5.mp3" id="audio5" ></audio>'
-  audio6.innerHTML = '<audio src="./music/6.mp3" id="audio6" ></audio>'
-  audio7.innerHTML = '<audio src="./music/7.mp3" id="audio7" ></audio>'
-  audio8.innerHTML = '<audio src="./music/8.mp3" id="audio8" ></audio>'
-  audio9.innerHTML = '<audio src="./music/9.mp3" id="audio9" ></audio>'
-  audio10.innerHTML = '<audio src="./music/10.mp3" id="audio10" ></audio>'
-  audio11.innerHTML = '<audio src="./music/11.mp3" id="audio11" ></audio>'
-  audio12.innerHTML = '<audio src="./music/12.mp3" id="audio12" autoplay></audio>'
+  imageSong.src = song12.cover;
+  nameSong.textContent = song12.name
+  artista.textContent = song12.artist
+  reproduction1Controls.innerHTML = '<audio src="./music/12.mp3" id="audio12"  autoplay controls></audio>'
 };
 
 songName1.textContent = song1.name;
