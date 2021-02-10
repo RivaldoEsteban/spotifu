@@ -258,11 +258,12 @@ body{
 }
 
 .songs-content {
-  height: 500px;
+  max-height: 400px;
   /* width: 500px; */
   /* width: 100vw; */
   overflow: auto;
   color: rgb(231, 231, 231);
+  /* border: 1px solid red; */
 }
 
 hr {
