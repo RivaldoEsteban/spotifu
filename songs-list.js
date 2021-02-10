@@ -57,6 +57,7 @@ const nameSong = document.getElementById('name-song')
 const artista = document.getElementById('cantante')
 const reproduction1 = document.getElementById('music1')
 
+const corazonClick = document.getElementById('corazon')
 
 content1.addEventListener('click' , remplazarSong1)
 content2.addEventListener('click' , remplazarSong2)
@@ -70,6 +71,9 @@ content9.addEventListener('click' , remplazarSong9)
 content10.addEventListener('click' , remplazarSong10)
 content11.addEventListener('click' , remplazarSong11)
 content12.addEventListener('click' , remplazarSong12)
+
+corazonClick.addEventListener ('click' , colorCorazon)
+corazonClick.addEventListener ('dblclick' , removeColor)
 
 
 
@@ -252,6 +256,14 @@ function remplazarSong12() {
   nameSong.textContent = song12.name
   artista.textContent = song12.artist
   reproduction1Controls.innerHTML = '<audio src="./music/12.mp3" id="audio12"  autoplay controls></audio>'
+};
+
+function colorCorazon() {
+  corazonClick.style.filter = 'invert(100)'
+};
+
+function removeColor() {
+  corazonClick.style.filter = ' contrast(50%)'
 };
 
 songName1.textContent = song1.name;

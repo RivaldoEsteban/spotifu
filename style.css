@@ -65,9 +65,9 @@ body{
 }
 
 .title-sect {
-   color:  #7D7D7D;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+  color:  #7D7D7D;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .font-parrafo {
@@ -88,7 +88,6 @@ body{
   bottom: 0;
   display: flex;
   align-items: center;
-  /* padding: 15px 0; */
 }
 
 .footer-song {
@@ -112,6 +111,7 @@ body{
 
 .name-song-content img{
   filter: contrast(50%);
+  /* filter: invert(); */
 }
 
 .name-song-content img:hover{
@@ -167,6 +167,7 @@ body{
   height: 28px;
   position: relative;
   right: 20px;
+  outline: none;
 }
 
 .icon-buscador{
@@ -276,4 +277,8 @@ hr {
 .reproductor {
   margin-left: 20%;
 
+}
+
+.reproductor audio {
+  outline: none;
 }
