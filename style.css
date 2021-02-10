@@ -214,6 +214,8 @@ body{
   padding: 10px 40px;
   border-radius: 25px;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .album-buttons img {
@@ -260,11 +262,10 @@ body{
 
 .songs-content {
   max-height: 400px;
-  /* width: 500px; */
-  /* width: 100vw; */
   overflow: auto;
   color: rgb(231, 231, 231);
-  /* border: 1px solid red; */
+  cursor: pointer;
+
 }
 
 hr {
