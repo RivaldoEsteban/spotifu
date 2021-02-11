@@ -264,7 +264,6 @@ function remplazarSong9() {
   imageSong.src = song9.cover;
   nameSong.textContent = song9.name
   artista.textContent = song9.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/9.mp3" id="audio9"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio9,icon9)
 };
@@ -272,9 +271,8 @@ function remplazarSong10() {
   imageSong.src = song10.cover;
   nameSong.textContent = song10.name
   artista.textContent = song10.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/10.mp3" id="audio10"  autoplay controls></audio>'
   changeColor()
-  reproducir1(audio10,incon10)
+  reproducir1(audio10,icon10)
 };
 function remplazarSong11() {
   imageSong.src = song11.cover;
@@ -284,7 +282,7 @@ function remplazarSong11() {
   changeColor()
   reproducir1(audio11,icon11)
 };
-
+// audio10.play();
 function remplazarSong12() {
   imageSong.src = song12.cover;
   nameSong.textContent = song12.name
@@ -307,10 +305,8 @@ function changeColor(){
 };
 
 const pause = document.getElementById('pause')
-pause.addEventListener('click', reproducir1, false);
-// pause2.addEventListener('click', reproducir2 , false);
-// pause.style.background = 'red'
-// pause.style.filter = 'invert()'
+
+
 function reproducir1(audioN , icono){
   if((audioN.paused == false) && (audioN.ended == false)){
     icono.src = 'images/image-proyect/play.svg'
