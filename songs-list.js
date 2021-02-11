@@ -192,97 +192,106 @@ const song12 = {
   cover: './images/cover/12.jpg'
 }
 
-const reproduction1Controls = document.getElementById('reproductor')
+const reproduction1Controls = document.getElementById('pause')
 
 
 function remplazarSong1() {
   imageSong.src = song1.cover;
   nameSong.textContent = song1.name
   artista.textContent = song1.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/1.mp3" id="audio1" autoplay controls></audio>'
   changeColor()
+  reproducir1(audio1, icon1)
 };
 
 function remplazarSong2() {
   imageSong.src = song2.cover;
   nameSong.textContent = song2.name
   artista.textContent = song2.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2" autoplay s controls></audio>'
   changeColor()
-
+  reproducir1(audio2, icon2)
 };
 
 function remplazarSong3() {
   imageSong.src = song3.cover;
   nameSong.textContent = song3.name
   artista.textContent = song3.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/3.mp3" id="audio3"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/3.mp3" id="audio3"  autoplay controls></audio>'
   changeColor()
-
+  reproducir1(audio3, icon3)
 };
 function remplazarSong4() {
   imageSong.src = song4.cover;
   nameSong.textContent = song4.name
   artista.textContent = song4.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/4.mp3" id="audio4"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/4.mp3" id="audio4"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio4,icon4)
 };
 function remplazarSong5() {
   imageSong.src = song5.cover;
   nameSong.textContent = song5.name
   artista.textContent = song5.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/5.mp3" id="audio5"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/5.mp3" id="audio5"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio5,icon5)
 };
 function remplazarSong6() {
   imageSong.src = song6.cover;
   nameSong.textContent = song6.name
   artista.textContent = song6.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/6.mp3" id="audio6"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/6.mp3" id="audio6"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio6,icon6)
 };
 function remplazarSong7() {
   imageSong.src = song7.cover;
   nameSong.textContent = song7.name
   artista.textContent = song7.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/7.mp3" id="audio7"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/7.mp3" id="audio7"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio7,icon7)
 };
 function remplazarSong8() {
   imageSong.src = song8.cover;
   nameSong.textContent = song8.name
   artista.textContent = song8.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/8.mp3" id="audio8"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/8.mp3" id="audio8"  autoplay controls></audio>'
   changeColor()
-};
+  reproducir1(audio8,icon8)
+}
 function remplazarSong9() {
   imageSong.src = song9.cover;
   nameSong.textContent = song9.name
   artista.textContent = song9.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/9.mp3" id="audio9"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/9.mp3" id="audio9"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio9,icon9)
 };
 function remplazarSong10() {
   imageSong.src = song10.cover;
   nameSong.textContent = song10.name
   artista.textContent = song10.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/10.mp3" id="audio10"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/10.mp3" id="audio10"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio10,incon10)
 };
 function remplazarSong11() {
   imageSong.src = song11.cover;
   nameSong.textContent = song11.name
   artista.textContent = song11.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/11.mp3" id="audio11"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/11.mp3" id="audio11"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio11,icon11)
 };
 
 function remplazarSong12() {
   imageSong.src = song12.cover;
   nameSong.textContent = song12.name
   artista.textContent = song12.artist
-  reproduction1Controls.innerHTML = '<audio src="./music/12.mp3" id="audio12"  autoplay controls></audio>'
+  // reproduction1Controls.innerHTML = '<audio src="./music/12.mp3" id="audio12"  autoplay controls></audio>'
   changeColor()
+  reproducir1(audio12,icon12)
 };
 
 function colorCorazon() {
@@ -298,21 +307,35 @@ function changeColor(){
 };
 
 const pause = document.getElementById('pause')
-pause.addEventListener('click' , pause1(audio1))
-
-function pause1(audioN){
-  const pauseIcon = pause.src = 'images/image-proyect/play.svg'
-  const play =  pause.id ='play'
-  const playIcon = document.getElementById('play')
-  audioN.pause();
-  playIcon.addEventListener('click' , playPause)
-  function playPause(){
+pause.addEventListener('click', reproducir1, false);
+// pause2.addEventListener('click', reproducir2 , false);
+// pause.style.background = 'red'
+// pause.style.filter = 'invert()'
+function reproducir1(audioN , icono){
+  if((audioN.paused == false) && (audioN.ended == false)){
+    icono.src = 'images/image-proyect/play.svg'
+    pause.src = 'images/image-proyect/play.svg'
+    button.textContent= 'Reproducir'
+    pause.style.filter = 'invert()'
+    audioN.pause();
+  } else {
+    icono.src = 'images/image-proyect/pause.svg'
     pause.src = 'images/image-proyect/pause.svg'
-    const pauseInterval = pause.id = 'pause'
-    const intervalo = document.getElementById(pauseInterval)
-    audioN.play();
+    button.textContent= 'Pause'
+    PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'
+    pause.style.filter = 'invert()'
+    const play = audioN.play();
   }
 }
+// function reproducir2(audioN, none){
+//   if((audioN.paused == false) && (audioN.ended == false)){
+//     pause.src = 'images/image-proyect/play.svg'
+//      const pause = none
+//   } else {
+//     pause.src = 'images/image-proyect/pause.svg'
+//      const play = none;
+//   }
+// }
 
 
 songName1.textContent = song1.name;
@@ -356,13 +379,28 @@ songAlbum11.textContent = song11.album;
 songAlbum12.textContent = song12.album;
 
 
+const icon1 = document.getElementById('icon1')
+const icon2 = document.getElementById('icon2')
+const icon3 = document.getElementById('icon3')
+const icon4 = document.getElementById('icon4')
+const icon5 = document.getElementById('icon5')
+const icon6 = document.getElementById('icon6')
+const icon7 = document.getElementById('icon7')
+const icon8 = document.getElementById('icon8')
+const icon9 = document.getElementById('icon9')
+const icon10 = document.getElementById('icon10')
+const icon11 = document.getElementById('icon11')
+const icon12 = document.getElementById('icon12')
 
-// export default [
-//   song1,
-//   song2,
-//   song3,
-//   song4,
-//   song5,
-//   song6,
-//   song7,
-// ]
+icon1.addEventListener ('clik' , remplazarSong1)
+icon2.addEventListener ('clik' , remplazarSong2)
+icon3.addEventListener ('clik' , remplazarSong3)
+icon4.addEventListener ('clik' , remplazarSong4)
+icon5.addEventListener ('clik' , remplazarSong5)
+icon6.addEventListener ('clik' , remplazarSong6)
+icon7.addEventListener ('clik' , remplazarSong7)
+icon8.addEventListener ('clik' , remplazarSong8)
+icon9.addEventListener ('clik' , remplazarSong9)
+icon10.addEventListener ('clik' , remplazarSong10)
+icon11.addEventListener ('clik' , remplazarSong11)
+icon12.addEventListener ('clik' , remplazarSong12)

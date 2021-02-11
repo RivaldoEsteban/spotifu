@@ -244,25 +244,47 @@ body{
 .album-title{
   display: flex;
   justify-content: space-between;
-  /* width: 500px; */
   overflow: auto;
 }
 
 .album-title h4 {
   text-align: start;
-  width: 300px;
+  width: 250px;
+
 }
 
 .album-title.content {
-  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .album-title.content p{
-  width: 300px;
+  width: 250px;
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
+
+.icon-content img {
+  border: 1px solid black;
+  filter: invert();
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.icon-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.h3 {
+  width: 30px;
+}
+
 
 .songs-content {
   max-height: 350px;

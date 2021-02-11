@@ -6,24 +6,21 @@
   <title>Document</title>
 </head>
 <body>
-  <audio src="../music/10.mp3" id="song" controls>hola</audio>
+  <audio src="../music/10.mp3" id="song">hola</audio>
+  <img src="./play.svg" alt="" id="pause" width="100px">
+  <script>
+
+    const pause1 = document.getElementById('pause')
+    pause1.addEventListener('click', reproducir , false);
+    function reproducir(){
+      if((audio1.paused == false) && (audio1.ended==false)){
+        pause1.src = './play.svg'
+        song.pause();
+      } else {
+        pause1.src = './pause.svg'
+        song.play();
+      }
+    }
+  </script>
 </body>
-<script>
-  const song = document.getElementById('song')
-
-  song.addEventListener('pause' , pause)
-  song.addEventListener('play' , play)
-
-  function pause(){
-    // song.textContent = song
-    console.log("pause")
-    song.style.filter ='contrast(50%)'
-    song.style.outline = 'none'
-  }
-  function play(){
-    song.style.filter ='contrast(50%)'
-    console.log('play')
-    song.style.outline = 'none'
-  }
-</script>
 </html>
