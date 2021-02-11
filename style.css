@@ -253,6 +253,10 @@ body{
   width: 300px;
 }
 
+.album-title.content {
+  height: inherit;
+}
+
 .album-title.content p{
   width: 300px;
   text-align: center;
@@ -261,11 +265,11 @@ body{
 }
 
 .songs-content {
-  max-height: 400px;
+  max-height: 350px;
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
-
+  padding: 10px 0;
 }
 
 hr {
@@ -282,4 +286,27 @@ hr {
 
 .reproductor audio {
   outline: none;
+}
+
+.pause-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 4px;
+  filter: contrast(0);
+}
+
+.pause-icon:hover {
+  filter: invert();
+}
+
+.play-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 4px;
+  filter: contrast(0);
+  /* display: none; */
+}
+
+.play-icon:hover {
+  filter: invert();
 }

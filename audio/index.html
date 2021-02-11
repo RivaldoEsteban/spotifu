@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <audio src="../music/10.mp3" id="song" controls>hola</audio>
+</body>
+<script>
+  const song = document.getElementById('song')
+
+  song.addEventListener('pause' , pause)
+  song.addEventListener('play' , play)
+
+  function pause(){
+    // song.textContent = song
+    console.log("pause")
+    song.style.filter ='contrast(50%)'
+    song.style.outline = 'none'
+  }
+  function play(){
+    song.style.filter ='contrast(50%)'
+    console.log('play')
+    song.style.outline = 'none'
+  }
+</script>
+</html>

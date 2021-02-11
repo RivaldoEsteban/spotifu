@@ -296,6 +296,25 @@ function removeColor() {
 function changeColor(){
   button.textContent = 'Pause'
 };
+
+const pause = document.getElementById('pause')
+pause.addEventListener('click' , pause1(audio1))
+
+function pause1(audioN){
+  const pauseIcon = pause.src = 'images/image-proyect/play.svg'
+  const play =  pause.id ='play'
+  const playIcon = document.getElementById('play')
+  audioN.pause();
+  playIcon.addEventListener('click' , playPause)
+  function playPause(){
+    pause.src = 'images/image-proyect/pause.svg'
+    const pauseInterval = pause.id = 'pause'
+    const intervalo = document.getElementById(pauseInterval)
+    audioN.play();
+  }
+}
+
+
 songName1.textContent = song1.name;
 songName2.textContent = song2.name;
 songName3.textContent = song3.name;
