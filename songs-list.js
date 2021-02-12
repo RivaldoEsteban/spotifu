@@ -73,6 +73,19 @@ const reproduction1 = document.getElementById('music1')
 const corazonClick = document.getElementById('corazon')
 const button = document.getElementById('button-pause')
 
+const cora1 = document.getElementById('corazon1')
+const cora2 = document.getElementById('corazon2')
+const cora3 = document.getElementById('corazon3')
+const cora4 = document.getElementById('corazon4')
+const cora5 = document.getElementById('corazon5')
+const cora6 = document.getElementById('corazon6')
+const cora7 = document.getElementById('corazon7')
+const cora8 = document.getElementById('corazon8')
+const cora9 = document.getElementById('corazon9')
+const cora10 = document.getElementById('corazon10')
+const cora11 = document.getElementById('corazon11')
+const cora12 = document.getElementById('corazon12')
+
 
 content1.addEventListener('click' , remplazarSong1)
 content2.addEventListener('click' , remplazarSong2)
@@ -88,7 +101,7 @@ content11.addEventListener('click' , remplazarSong11)
 content12.addEventListener('click' , remplazarSong12)
 
 corazonClick.addEventListener ('click' , colorCorazon)
-corazonClick.addEventListener ('dblclick' , removeColor)
+// corazonClick.addEventListener ('dblclick' , removeColor)
 button.addEventListener('click',changeColor)
 
 
@@ -194,22 +207,45 @@ const song12 = {
 
 const reproduction1Controls = document.getElementById('pause')
 
-
 function remplazarSong1() {
-  imageSong.src = song1.cover;
-  nameSong.textContent = song1.name
-  artista.textContent = song1.artist
-  changeColor()
-  reproducir1(audio1, icon1)
+    imageSong.src = song1.cover;
+    nameSong.textContent = song1.name
+    artista.textContent = song1.artist
+    changeColor()
+    // alert('hola')
+    reproducir1(audio1, icon1)
+    audio2.pause();
+    audio3.pause();
+    audio4.pause();
+    audio5.pause();
+    audio6.pause();
+    audio7.pause();
+    audio8.pause();
+    audio9.pause();
+    audio10.pause();
+    audio11.pause();
+    audio12.pause();
+    // console.logaudio2
 };
 
 function remplazarSong2() {
-  imageSong.src = song2.cover;
-  nameSong.textContent = song2.name
-  artista.textContent = song2.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2" autoplay s controls></audio>'
-  changeColor()
-  reproducir1(audio2, icon2)
+    imageSong.src = song2.cover;
+    nameSong.textContent = song2.name
+    artista.textContent = song2.artist
+    // reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2" autoplay s controls></audio>'
+    changeColor()
+    reproducir1(audio2, icon2)
+   audio1.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 
 function remplazarSong3() {
@@ -219,6 +255,17 @@ function remplazarSong3() {
   // reproduction1Controls.innerHTML = '<audio src="./music/3.mp3" id="audio3"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio3, icon3)
+   audio1.pause();
+  audio2.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong4() {
   imageSong.src = song4.cover;
@@ -227,6 +274,17 @@ function remplazarSong4() {
   // reproduction1Controls.innerHTML = '<audio src="./music/4.mp3" id="audio4"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio4,icon4)
+   audio2.pause();
+  audio3.pause();
+  audio1.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong5() {
   imageSong.src = song5.cover;
@@ -235,6 +293,17 @@ function remplazarSong5() {
   // reproduction1Controls.innerHTML = '<audio src="./music/5.mp3" id="audio5"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio5,icon5)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio1.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong6() {
   imageSong.src = song6.cover;
@@ -243,6 +312,17 @@ function remplazarSong6() {
   // reproduction1Controls.innerHTML = '<audio src="./music/6.mp3" id="audio6"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio6,icon6)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio1.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong7() {
   imageSong.src = song7.cover;
@@ -251,14 +331,35 @@ function remplazarSong7() {
   // reproduction1Controls.innerHTML = '<audio src="./music/7.mp3" id="audio7"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio7,icon7)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio1.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong8() {
   imageSong.src = song8.cover;
   nameSong.textContent = song8.name
   artista.textContent = song8.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/8.mp3" id="audio8"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio8,icon8)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio1.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 }
 function remplazarSong9() {
   imageSong.src = song9.cover;
@@ -266,6 +367,17 @@ function remplazarSong9() {
   artista.textContent = song9.artist
   changeColor()
   reproducir1(audio9,icon9)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio1.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong10() {
   imageSong.src = song10.cover;
@@ -273,27 +385,68 @@ function remplazarSong10() {
   artista.textContent = song10.artist
   changeColor()
   reproducir1(audio10,icon10)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio1.pause();
+  audio11.pause();
+  audio12.pause();
 };
 function remplazarSong11() {
   imageSong.src = song11.cover;
   nameSong.textContent = song11.name
   artista.textContent = song11.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/11.mp3" id="audio11"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio11,icon11)
+   audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio1.pause();
+  audio12.pause();
 };
 // audio10.play();
 function remplazarSong12() {
   imageSong.src = song12.cover;
   nameSong.textContent = song12.name
   artista.textContent = song12.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/12.mp3" id="audio12"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio12,icon12)
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio1.pause();
 };
 
+let f = false
+
+
+
 function colorCorazon() {
-  corazonClick.style.filter = 'invert(100)'
+  if(f == false) {
+    corazonClick.style.filter = 'invert(100)'
+    f = true;
+  } else {
+    corazonClick.style.filter = 'contrast(50%)'
+    f = false;
+  }
 };
 
 function removeColor() {
@@ -305,9 +458,9 @@ function changeColor(){
 };
 
 const pause = document.getElementById('pause')
+pause.style.cursor = 'pointer'
 
-
-function reproducir1(audioN , icono){
+function reproducir1(audioN , icono ){
   if((audioN.paused == false) && (audioN.ended == false)){
     icono.src = 'images/image-proyect/play.svg'
     pause.src = 'images/image-proyect/play.svg'
@@ -320,18 +473,10 @@ function reproducir1(audioN , icono){
     button.textContent= 'Pause'
     PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'
     pause.style.filter = 'invert()'
-    const play = audioN.play();
+    audioN.play();
   }
 }
-// function reproducir2(audioN, none){
-//   if((audioN.paused == false) && (audioN.ended == false)){
-//     pause.src = 'images/image-proyect/play.svg'
-//      const pause = none
-//   } else {
-//     pause.src = 'images/image-proyect/pause.svg'
-//      const play = none;
-//   }
-// }
+
 
 
 songName1.textContent = song1.name;

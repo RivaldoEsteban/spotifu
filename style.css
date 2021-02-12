@@ -332,3 +332,7 @@ hr {
 .play-icon:hover {
   filter: invert();
 }
+
+.corazon {
+  display: none;
+}
