@@ -208,34 +208,12 @@ const song12 = {
 const reproduction1Controls = document.getElementById('pause')
 
 function remplazarSong1() {
-    imageSong.src = song1.cover;
-    nameSong.textContent = song1.name
-    artista.textContent = song1.artist
-    changeColor()
-    // alert('hola')
-    reproducir1(audio1, icon1)
-    audio2.pause();
-    audio3.pause();
-    audio4.pause();
-    audio5.pause();
-    audio6.pause();
-    audio7.pause();
-    audio8.pause();
-    audio9.pause();
-    audio10.pause();
-    audio11.pause();
-    audio12.pause();
-    // console.logaudio2
-};
-
-function remplazarSong2() {
-    imageSong.src = song2.cover;
-    nameSong.textContent = song2.name
-    artista.textContent = song2.artist
-    // reproduction1Controls.innerHTML = '<audio src="./music/2.mp3" id="audio2" autoplay s controls></audio>'
-    changeColor()
-    reproducir1(audio2, icon2)
-   audio1.pause();
+  imageSong.src = song1.cover;
+  nameSong.textContent = song1.name
+  artista.textContent = song1.artist
+  changeColor()
+  reproducir1(audio1, icon1)
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio5.pause();
@@ -246,6 +224,26 @@ function remplazarSong2() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+
+};
+function remplazarSong2() {
+  imageSong.src = song2.cover;
+  nameSong.textContent = song2.name
+  artista.textContent = song2.artist
+  changeColor()
+  reproducir1(audio2, icon2)
+  audio1.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+
 };
 
 function remplazarSong3() {
@@ -271,10 +269,9 @@ function remplazarSong4() {
   imageSong.src = song4.cover;
   nameSong.textContent = song4.name
   artista.textContent = song4.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/4.mp3" id="audio4"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio4,icon4)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio1.pause();
   audio5.pause();
@@ -290,10 +287,9 @@ function remplazarSong5() {
   imageSong.src = song5.cover;
   nameSong.textContent = song5.name
   artista.textContent = song5.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/5.mp3" id="audio5"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio5,icon5)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio1.pause();
@@ -309,10 +305,9 @@ function remplazarSong6() {
   imageSong.src = song6.cover;
   nameSong.textContent = song6.name
   artista.textContent = song6.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/6.mp3" id="audio6"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio6,icon6)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio5.pause();
@@ -328,10 +323,9 @@ function remplazarSong7() {
   imageSong.src = song7.cover;
   nameSong.textContent = song7.name
   artista.textContent = song7.artist
-  // reproduction1Controls.innerHTML = '<audio src="./music/7.mp3" id="audio7"  autoplay controls></audio>'
   changeColor()
   reproducir1(audio7,icon7)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio5.pause();
@@ -477,7 +471,15 @@ function reproducir1(audioN , icono ){
   }
 }
 
+// let name2 = null;
 
+// function name1(null){
+//   if(name2 == null){
+//     console.log( 'rivaldo')
+//   } else {
+//     console.log('fabio')
+//   }
+// }
 
 songName1.textContent = song1.name;
 songName2.textContent = song2.name;

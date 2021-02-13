@@ -17,16 +17,29 @@
       background: blue;
       height: 3px;
     }
+
+    #song {
+      line-height: 100vh;
+      /* display: inline-bl; */
+    }
+    #song p {
+      width: 500px;
+      border: 1px solid red;
+      height: 200px;
+    }
   </style>
 </head>
 <body>
-  <audio src="../music/10.mp3" id="song">hola</audio>
-  <img src="./play.svg" alt="" id="pause" width="100px">
+  <div id="song">
+    <p>hola mundo</p>
+  </div>
+  <!-- <audio src="../music/10.mp3" id="song" controls>hola</audio> -->
+  <!-- <img src="./play.svg" alt="" id="pause" width="100px"> -->
 
-  <div id="barra">
+  <!-- <div id="barra">
     <div id="progreso"></div>
     <p class="pro">0: 00</p>
-    <p class="dur">0: 00</p>
+    <p class="dur">0: 00</p> -->
   </div>
   <script>
 
