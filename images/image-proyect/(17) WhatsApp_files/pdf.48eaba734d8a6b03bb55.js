@@ -1,0 +1,2 @@
+/*! Copyright (c) 2021 WhatsApp Inc. All Rights Reserved. */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[126],{behhgdabhc:function(d,a,c){"use strict";c.r(a),a.default=c.p+"pdf.worker.96d1bc1f3d0105cd5a81bae7a9dad228.js"}}]);

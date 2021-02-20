@@ -224,6 +224,17 @@ function remplazarSong1() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 
 };
 function remplazarSong2() {
@@ -243,7 +254,17 @@ function remplazarSong2() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
-
+  icon1.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 
 function remplazarSong3() {
@@ -264,6 +285,17 @@ function remplazarSong3() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong4() {
   imageSong.src = song4.cover;
@@ -282,6 +314,17 @@ function remplazarSong4() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong5() {
   imageSong.src = song5.cover;
@@ -300,6 +343,17 @@ function remplazarSong5() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong6() {
   imageSong.src = song6.cover;
@@ -318,6 +372,17 @@ function remplazarSong6() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong7() {
   imageSong.src = song7.cover;
@@ -336,6 +401,17 @@ function remplazarSong7() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong8() {
   imageSong.src = song8.cover;
@@ -354,6 +430,17 @@ function remplazarSong8() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 }
 function remplazarSong9() {
   imageSong.src = song9.cover;
@@ -372,6 +459,17 @@ function remplazarSong9() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong10() {
   imageSong.src = song10.cover;
@@ -390,6 +488,17 @@ function remplazarSong10() {
   audio1.pause();
   audio11.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong11() {
   imageSong.src = song11.cover;
@@ -408,6 +517,17 @@ function remplazarSong11() {
   audio10.pause();
   audio1.pause();
   audio12.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
 };
 // audio10.play();
 function remplazarSong12() {
@@ -427,6 +547,17 @@ function remplazarSong12() {
   audio10.pause();
   audio11.pause();
   audio1.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
 };
 
 let f = false
