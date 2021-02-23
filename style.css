@@ -288,7 +288,7 @@ body{
 
 
 .songs-content {
-  max-height: 400px;
+  max-height: 350px;
   /* width: 100vw; */
   overflow: auto;
   color: rgb(231, 231, 231);
