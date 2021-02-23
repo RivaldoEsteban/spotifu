@@ -289,7 +289,6 @@ body{
 
 .songs-content {
   max-height: 300px;
-  /* width: 100vw; */
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
