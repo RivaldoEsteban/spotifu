@@ -288,7 +288,7 @@ body{
 
 
 .songs-content {
-  height: 350px;
+  height: 450px;
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
@@ -338,8 +338,13 @@ hr {
   display: none;
 }
 
- @media (max-width: 1500px){
+ /* @media (min-width: 1600px){
+  .songs-content {
+   height: 500px;
+   }
+} */
+ @media (max-width: 1700px){
    .songs-content {
-     height: 450px;
+     height: 350px;
    }
 }
