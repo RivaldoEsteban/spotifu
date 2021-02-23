@@ -10,6 +10,8 @@ const songName9 = document.getElementById('song9')
 const songName10 = document.getElementById('song10')
 const songName11 = document.getElementById('song11')
 const songName12 = document.getElementById('song12')
+const songName13 = document.getElementById('song13')
+const songName14 = document.getElementById('song14')
 
 const songArtist1 = document.getElementById('artista1')
 const songArtist2 = document.getElementById('artista2')
@@ -23,6 +25,8 @@ const songArtist9 = document.getElementById('artista9')
 const songArtist10 = document.getElementById('artista10')
 const songArtist11 = document.getElementById('artista11')
 const songArtist12 = document.getElementById('artista12')
+const songArtist13 = document.getElementById('artista13')
+const songArtist14 = document.getElementById('artista14')
 
 const songAlbum1 = document.getElementById('album1')
 const songAlbum2 = document.getElementById('album2')
@@ -36,6 +40,8 @@ const songAlbum9 = document.getElementById('album9')
 const songAlbum10 = document.getElementById('album10')
 const songAlbum11 = document.getElementById('album11')
 const songAlbum12 = document.getElementById('album12')
+const songAlbum13 = document.getElementById('album13')
+const songAlbum14 = document.getElementById('album14')
 
 
 const content1 = document.getElementById('1')
@@ -50,6 +56,8 @@ const content9 = document.getElementById('9')
 const content10 = document.getElementById('10')
 const content11 = document.getElementById('11')
 const content12 = document.getElementById('12')
+const content13 = document.getElementById('13')
+const content14 = document.getElementById('14')
 
 const audio1 = document.getElementById('audio1')
 const audio2 = document.getElementById('audio2')
@@ -63,6 +71,8 @@ const audio9 = document.getElementById('audio9')
 const audio10 = document.getElementById('audio10')
 const audio11 = document.getElementById('audio11')
 const audio12 = document.getElementById('audio12')
+const audio13 = document.getElementById('audio13')
+const audio14 = document.getElementById('audio14')
 
 
 const imageSong = document.getElementById('footer-image')
@@ -85,6 +95,8 @@ const cora9 = document.getElementById('corazon9')
 const cora10 = document.getElementById('corazon10')
 const cora11 = document.getElementById('corazon11')
 const cora12 = document.getElementById('corazon12')
+const cora13 = document.getElementById('corazon13')
+const cora14 = document.getElementById('corazon14')
 
 
 content1.addEventListener('click' , remplazarSong1)
@@ -99,6 +111,8 @@ content9.addEventListener('click' , remplazarSong9)
 content10.addEventListener('click' , remplazarSong10)
 content11.addEventListener('click' , remplazarSong11)
 content12.addEventListener('click' , remplazarSong12)
+content13.addEventListener('click' , remplazarSong13)
+content14.addEventListener('click' , remplazarSong14)
 
 corazonClick.addEventListener ('click' , colorCorazon)
 // corazonClick.addEventListener ('dblclick' , removeColor)
@@ -205,6 +219,23 @@ const song12 = {
   cover: './images/cover/12.jpg'
 }
 
+const song13 = {
+  name: " Cuando Te Vi",
+  artist: " Greeicy",
+  album : "Cuando Te Vi" ,
+  duration : "3:10",
+  media: './music/13.mp3',
+  cover: './images/cover/13.png'
+}
+
+const song14 = {
+  name : "Antes que salga el sol",
+  artist : "Natti Natasha, Prince Royce",
+  album : "Antes que salga el sol" ,
+  duration : "3:21",
+  media: './music/14.mp3',
+  cover: './images/cover/14.png'
+}
 const reproduction1Controls = document.getElementById('pause')
 
 function remplazarSong1() {
@@ -224,6 +255,8 @@ function remplazarSong1() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -235,6 +268,8 @@ function remplazarSong1() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong2() {
   imageSong.src = song2.cover;
@@ -253,6 +288,8 @@ function remplazarSong2() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon1.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -264,6 +301,8 @@ function remplazarSong2() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 
 function remplazarSong3() {
@@ -284,6 +323,8 @@ function remplazarSong3() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -295,6 +336,8 @@ function remplazarSong3() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong4() {
   imageSong.src = song4.cover;
@@ -313,6 +356,8 @@ function remplazarSong4() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
@@ -324,6 +369,8 @@ function remplazarSong4() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong5() {
   imageSong.src = song5.cover;
@@ -342,6 +389,8 @@ function remplazarSong5() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -353,6 +402,8 @@ function remplazarSong5() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong6() {
   imageSong.src = song6.cover;
@@ -371,6 +422,8 @@ function remplazarSong6() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -382,6 +435,8 @@ function remplazarSong6() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong7() {
   imageSong.src = song7.cover;
@@ -400,6 +455,8 @@ function remplazarSong7() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -411,6 +468,8 @@ function remplazarSong7() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong8() {
   imageSong.src = song8.cover;
@@ -429,6 +488,8 @@ function remplazarSong8() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -440,6 +501,8 @@ function remplazarSong8() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 }
 function remplazarSong9() {
   imageSong.src = song9.cover;
@@ -458,6 +521,8 @@ function remplazarSong9() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -469,6 +534,8 @@ function remplazarSong9() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong10() {
   imageSong.src = song10.cover;
@@ -487,6 +554,8 @@ function remplazarSong10() {
   audio1.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -498,6 +567,8 @@ function remplazarSong10() {
   icon1.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 function remplazarSong11() {
   imageSong.src = song11.cover;
@@ -516,6 +587,8 @@ function remplazarSong11() {
   audio10.pause();
   audio1.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -527,6 +600,8 @@ function remplazarSong11() {
   icon10.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
 };
 // audio10.play();
 function remplazarSong12() {
@@ -546,6 +621,8 @@ function remplazarSong12() {
   audio10.pause();
   audio11.pause();
   audio1.pause();
+  audio13.pause();
+  audio14.pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -556,6 +633,76 @@ function remplazarSong12() {
   icon9.src = 'images/image-proyect/play.svg'
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
+};
+
+function remplazarSong13() {
+  imageSong.src = song13.cover;
+  nameSong.textContent = song13.name
+  artista.textContent = song13.artist
+  changeColor()
+  reproducir1(audio13,icon13)
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio1.pause();
+  audio14.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
+  icon1.src = 'images/image-proyect/play.svg'
+  icon14.src = 'images/image-proyect/play.svg'
+};
+
+function remplazarSong14() {
+  imageSong.src = song14.cover;
+  nameSong.textContent = song14.name
+  artista.textContent = song14.artist
+  changeColor()
+  reproducir1(audio14,icon14)
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio1.pause();
+  icon2.src = 'images/image-proyect/play.svg'
+  icon3.src = 'images/image-proyect/play.svg'
+  icon4.src = 'images/image-proyect/play.svg'
+  icon5.src = 'images/image-proyect/play.svg'
+  icon6.src = 'images/image-proyect/play.svg'
+  icon7.src = 'images/image-proyect/play.svg'
+  icon8.src = 'images/image-proyect/play.svg'
+  icon9.src = 'images/image-proyect/play.svg'
+  icon10.src = 'images/image-proyect/play.svg'
+  icon11.src = 'images/image-proyect/play.svg'
+  icon12.src = 'images/image-proyect/play.svg'
+  icon13.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
 };
 
@@ -629,6 +776,8 @@ songName9.textContent = song9.name;
 songName10.textContent = song10.name;
 songName11.textContent = song11.name;
 songName12.textContent = song12.name;
+songName13.textContent = song13.name;
+songName14.textContent = song14.name;
 
 songArtist1.textContent = song1.artist;
 songArtist2.textContent = song2.artist;
@@ -642,6 +791,8 @@ songArtist9.textContent = song9.artist;
 songArtist10.textContent = song10.artist;
 songArtist11.textContent = song11.artist;
 songArtist12.textContent = song12.artist;
+songArtist13.textContent = song13.artist;
+songArtist14.textContent = song14.artist;
 
 
 songAlbum1.textContent = song1.album;
@@ -656,6 +807,8 @@ songAlbum9.textContent = song9.album;
 songAlbum10.textContent = song10.album;
 songAlbum11.textContent = song11.album;
 songAlbum12.textContent = song12.album;
+songAlbum13.textContent = song13.album;
+songAlbum14.textContent = song14.album;
 
 
 const icon1 = document.getElementById('icon1')
@@ -670,6 +823,8 @@ const icon9 = document.getElementById('icon9')
 const icon10 = document.getElementById('icon10')
 const icon11 = document.getElementById('icon11')
 const icon12 = document.getElementById('icon12')
+const icon13 = document.getElementById('icon13')
+const icon14 = document.getElementById('icon14')
 
 icon1.addEventListener ('clik' , remplazarSong1)
 icon2.addEventListener ('clik' , remplazarSong2)
@@ -683,3 +838,5 @@ icon9.addEventListener ('clik' , remplazarSong9)
 icon10.addEventListener ('clik' , remplazarSong10)
 icon11.addEventListener ('clik' , remplazarSong11)
 icon12.addEventListener ('clik' , remplazarSong12)
+icon13.addEventListener ('clik' , remplazarSong13)
+icon14.addEventListener ('clik' , remplazarSong14)
