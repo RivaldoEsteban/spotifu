@@ -288,7 +288,7 @@ body{
 
 
 .songs-content {
-  height: 300px;
+  height: 350px;
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
@@ -336,4 +336,10 @@ hr {
 
 .corazon {
   display: none;
+}
+
+ @media (max-width: 1500px){
+   .songs-content {
+     height: 450px;
+   }
 }
