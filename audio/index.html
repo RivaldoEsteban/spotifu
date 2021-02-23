@@ -30,11 +30,10 @@
   </style>
 </head>
 <body>
-  <div id="song">
-    <p>hola mundo</p>
-  </div>
-  <!-- <audio src="../music/10.mp3" id="song" controls>hola</audio> -->
-  <!-- <img src="./play.svg" alt="" id="pause" width="100px"> -->
+  <audio src="../music/10.mp3" id="song" controls loop>
+  </audio>
+  <img src="./pause.svg" alt="" id="pause" width="100px">
+  <img src="./play.svg"  id="loop" alt="">
 
   <!-- <div id="barra">
     <div id="progreso"></div>
@@ -42,16 +41,22 @@
     <p class="dur">0: 00</p> -->
   </div>
   <script>
+    const loop = document.getElementById('loop')
+    const song = document.getElementById('song')
+    const pause = document.getElementById('pause')
+    pause.addEventListener('click', reproducir, false);
+    loop.addEventListener('click', otravez)
+    function otravez(){
+    }
 
-    const pause1 = document.getElementById('pause')
-    pause1.addEventListener('click', reproducir , false);
     function reproducir(){
-      if((song.paused == false) && (song.ended==false)){
-        pause1.src = './play.svg'
+      if((song.paused == false) && (song.ended== false)){
+        pause.src = './pause.svg'
+        console.log('hola')
         song.pause();
       } else {
-        pause1.src = './pause.svg'
         song.play();
+        pause.src = './play.svg'
       }
     }
   </script>

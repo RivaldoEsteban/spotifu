@@ -235,7 +235,6 @@ function remplazarSong1() {
   icon10.src = 'images/image-proyect/play.svg'
   icon11.src = 'images/image-proyect/play.svg'
   icon12.src = 'images/image-proyect/play.svg'
-
 };
 function remplazarSong2() {
   imageSong.src = song2.cover;
@@ -477,7 +476,7 @@ function remplazarSong10() {
   artista.textContent = song10.artist
   changeColor()
   reproducir1(audio10,icon10)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio5.pause();
@@ -506,7 +505,7 @@ function remplazarSong11() {
   artista.textContent = song11.artist
   changeColor()
   reproducir1(audio11,icon11)
-   audio2.pause();
+  audio2.pause();
   audio3.pause();
   audio4.pause();
   audio5.pause();
@@ -584,6 +583,12 @@ function changeColor(){
 
 const pause = document.getElementById('pause')
 pause.style.cursor = 'pointer'
+// pause.addEventListener('click', pauseMusic)
+
+//
+
+// pauseMusic()
+
 
 function reproducir1(audioN , icono ){
   if((audioN.paused == false) && (audioN.ended == false)){

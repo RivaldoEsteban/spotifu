@@ -80,6 +80,7 @@ body{
 }
 
 .footer {
+  /* height:  10vh; */
   background-color: #242424;
   margin: 0;
   position: absolute;
@@ -143,15 +144,14 @@ body{
 .hero-content {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   padding-left: 40px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   width:  100vw;
   /* overflow: auto; */
 }
 
 .general-container {
   display: flex;
-  height: 100vh;
-
+  height: 90vh;
 }
 
 .buscador {
@@ -288,7 +288,8 @@ body{
 
 
 .songs-content {
-  max-height: 350px;
+  max-height: 400px;
+  /* width: 100vw; */
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
