@@ -45,11 +45,8 @@ body{
   margin-left: 14px;
 }
 
-.sec-home-explorer-radio:hover {
+.sec-home-explorer-radio:active::before {
   color: white;
-}
-
-.sec-home-explorer-radio:hover::before {
   content: '';
   width: 5px ;
   background: #00B050;
@@ -112,7 +109,6 @@ body{
 
 .name-song-content img{
   filter: contrast(50%);
-  /* filter: invert(); */
 }
 
 .name-song-content img:hover{
@@ -144,9 +140,7 @@ body{
 .hero-content {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   padding-left: 40px;
-  /* padding-right: 40px; */
   width:  100vw;
-  /* overflow: auto; */
 }
 
 .general-container {
@@ -286,9 +280,15 @@ body{
   width: 30px;
 }
 
+.songs-content:hover::before {
+  content: '';
+  width: 5px;
+  height: 22px;
+  background: green;
+}
 
 .songs-content {
-  height: 450px;
+  height: 430px;
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
@@ -347,4 +347,45 @@ hr {
    .songs-content {
      height: 350px;
    }
+}
+
+.modal-title {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: linear-gradient(to left, rgb(70, 69, 69) 100%  ,rgb(49, 49, 49) 0%);
+}
+
+.printmodal {
+  background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
+  width: 100%;
+  overflow: auto;
+}
+
+.images-content{
+  display: flex;
+  gap: 40px;
+  margin: 10px 0;
+  margin-left: 50px;
+  overflow: auto;
+  margin-right: 10px;
+  /* justify-content: center; */
+}
+
+.grupo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.grupo h4 {
+  margin: 5px 0 10px;
+}
+
+.grupo p {
+  font-size: 14px;
+  opacity: .7;
+  margin: 0;
 }

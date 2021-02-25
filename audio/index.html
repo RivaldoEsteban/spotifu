@@ -22,43 +22,94 @@
       line-height: 100vh;
       /* display: inline-bl; */
     }
-    #song p {
-      width: 500px;
-      border: 1px solid red;
-      height: 200px;
+    .donas select{
+      display: block ;
+      width: 100px;
+      margin: 50px 0;
+    }
+    .err {
+      display: none;
     }
   </style>
 </head>
 <body>
-  <audio src="../music/10.mp3" id="song" controls loop>
-  </audio>
-  <img src="./pause.svg" alt="" id="pause" width="100px">
-  <img src="./play.svg"  id="loop" alt="">
-
-  <!-- <div id="barra">
-    <div id="progreso"></div>
-    <p class="pro">0: 00</p>
-    <p class="dur">0: 00</p> -->
+  <div>
+    <h1>
+      media docena
+    </h1>
+    <div class="donas">
+      <h2>Chocolate</h2>
+      <h2>fresa</h2>
+      <h2>menta</h2>
+      <select name="select"  class="select" id="select1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <select name="select" id="select2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <select name="select" id="select3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <button type="submit" id="btn">
+        comprar
+      </button>
+      <p id="err" class="err">hola</p>
+    </div>
   </div>
-  <script>
-    const loop = document.getElementById('loop')
-    const song = document.getElementById('song')
-    const pause = document.getElementById('pause')
-    pause.addEventListener('click', reproducir, false);
-    loop.addEventListener('click', otravez)
-    function otravez(){
-    }
 
-    function reproducir(){
-      if((song.paused == false) && (song.ended== false)){
-        pause.src = './pause.svg'
-        console.log('hola')
-        song.pause();
+
+  <script>
+    const select1 = document.getElementById('select1')
+    const select2 = document.getElementById('select2')
+    const select3 = document.getElementById('select3')
+    const btn = document.getElementById('btn')
+    const aviso = document.getElementById('err')
+    btn.addEventListener('click' , resultado )
+
+    function resultado() {
+      const suma = (Number(select1.value) + Number(select2.value) + Number(select3.value))
+      aviso.style.display = 'block'
+      if(suma <= 6 ) {
+        aviso.textContent = 'donas seleccionadas'
+        aviso.style.border = "3px solid green"
+        aviso.style.width = '200px'
+        // for(i=0; i<=1 ; i++) {
+        //   setInterval(() => {
+        //     aviso.textContent = `hola ${i}`
+        //   }, 1000);
+        //   setInterval(() => {
+        //     aviso.textContent = `como ${i}`
+        //   }, 2000);
+        //   setInterval(() => {
+        //     aviso.textContent = `estas ${i}`
+        //   }, 3000);
+
+        //     // console.log (i)
+
+        // }
       } else {
-        song.play();
-        pause.src = './play.svg'
+        aviso.textContent = 'solo escoge 6 por favor'
+        aviso.style.border = '3px solid red'
+        aviso.style.width = '200px'
       }
     }
+
+
   </script>
 </body>
 </html>
