@@ -108,8 +108,14 @@ const login = document.getElementById('login')
 const loginBtn = document.getElementById('login-btn')
 const principal = document.getElementById('general-container')
 const footer = document.getElementById('general-footer')
+const btnFb = document.getElementById('btn-fb')
+const btnGm = document.getElementById('btn-gm')
+
+
 
 loginBtn.addEventListener('click' , modalPrincipal)
+btnFb.addEventListener('click' , modalPrincipal)
+btnGm.addEventListener('click' , modalPrincipal)
 function modalPrincipal(){
   login.style.display ='none'
   principal.style.display='flex'

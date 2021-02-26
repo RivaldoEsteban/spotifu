@@ -424,12 +424,13 @@ hr {
   width: 300px;
   margin: auto;
   box-shadow: 0px 0px 50px 1px rgba(255, 255, 255, .3);
-  height: 400px;
+  /* height: 400px; */
   border-radius: 8px;
-  padding: 0 10px;
+  padding:  15px 25px;
   animation-name: home;
   animation-duration: 600ms;
   animation-fill-mode: backwards;
+
 }
 
 @keyframes home {
@@ -458,7 +459,7 @@ hr {
   border: none;
   padding: 12px 10px;
   border-radius: 2px;
-  background: gray;
+  /* background: gray; */
   color: white;
   margin-top: 10px;
 }
@@ -490,14 +491,13 @@ hr {
 
 .login-grupo-content button {
   width: 150px;
-  display: block;
   margin: 20px auto;
+  display: block;
   padding: 12px 10px;
   cursor: pointer;
   background: rgb(81, 214, 81);
   color: white;
   border: none;
-  border-radius: 2px;
   border-radius: 20px;
   outline: none;
 }
@@ -506,4 +506,50 @@ hr {
   opacity: .2;
   position: relative;
   z-index: 1;
+}
+
+.login-container hr {
+  background: white;
+  opacity: .4;
+}
+
+.login-container button {
+  height: 45px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 12px auto;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+
+.btn-fb {
+  background: #3b5998 ;
+  outline: none;
+  border: 1px solid black;
+  width: 100%;
+  color: white;
+}
+
+.btn-gm {
+  border: 1px solid gray;
+  width: 100%;
+  color: gray;
+}
+
+.btn-img {
+  margin: 0;
+  filter: invert();
+}
+.btn-img1 {
+  margin: 0;
+  filter: invert(30%);
 }
