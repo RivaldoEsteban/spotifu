@@ -74,7 +74,6 @@ const audio12 = document.getElementById('audio12')
 const audio13 = document.getElementById('audio13')
 const audio14 = document.getElementById('audio14')
 
-const print = document.getElementsByName('grupo10')
 
 
 
@@ -118,7 +117,6 @@ content13.addEventListener('click' , remplazarSong13)
 content14.addEventListener('click' , remplazarSong14)
 
 corazonClick.addEventListener ('click' , colorCorazon)
-// corazonClick.addEventListener ('dblclick' , removeColor)
 button.addEventListener('click',changeColor)
 
 
