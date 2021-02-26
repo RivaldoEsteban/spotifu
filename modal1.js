@@ -49,11 +49,11 @@ const grupo48 = document.getElementById('grupo48')
 
 
 const contentGrupo = document.getElementsByClassName('grupo')
-
 const modalHome = document.getElementById('printmodal')
 const modalSong = document.getElementById('hero-content')
 
 const inicio = document.getElementById('atras')
+
 grupo1.addEventListener ('click', canciones)
 grupo2.addEventListener ('click', canciones)
 grupo3.addEventListener ('click', canciones)
@@ -102,6 +102,9 @@ grupo45.addEventListener ('click', canciones)
 grupo46.addEventListener ('click', canciones)
 grupo47.addEventListener ('click', canciones)
 grupo48.addEventListener ('click', canciones)
+
+
+
 
 
 

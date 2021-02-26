@@ -361,13 +361,9 @@ hr {
 
 .modal-title {
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 40px;
   font-size: 25px;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  /* background: linear-gradient(to left, rgb(70, 69, 69) 100%  , rgb(70, 69, 69) 0%); */
-  background: rgb(63, 62, 62);
+
 }
 
 .printmodal {
@@ -381,7 +377,7 @@ hr {
   display: flex;
   gap: 40px;
   margin: 10px 0;
-  margin-left: 40px;
+  margin-left: 0px;
   overflow: auto;
   margin-right: 10px;
 }
@@ -389,8 +385,7 @@ hr {
 .grupo {
   width: 180px;
   margin-bottom: 20px;
-  position: relative;
-  z-index: 1;
+  margin-left: 40px;
 }
 
 .grupo h4 {

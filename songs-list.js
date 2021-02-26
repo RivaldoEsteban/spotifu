@@ -117,6 +117,7 @@ content13.addEventListener('click' , remplazarSong13)
 content14.addEventListener('click' , remplazarSong14)
 
 corazonClick.addEventListener ('click' , colorCorazon)
+// corazonClick.addEventListener ('dblclick' , removeColor)
 button.addEventListener('click',changeColor)
 
 
