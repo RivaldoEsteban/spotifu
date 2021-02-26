@@ -312,7 +312,7 @@ hr {
 }
 
 .reproductor {
-  margin: 20px 25%;
+  margin: 20px 25% 5px;
 }
 
 .reproductor audio {
@@ -352,7 +352,7 @@ hr {
      height: 350px;
    }
   .reproductor {
-    margin: 20px 21%;
+    margin: 20px 21% 5px;
   }
 }
 
