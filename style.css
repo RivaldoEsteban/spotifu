@@ -312,8 +312,7 @@ hr {
 }
 
 .reproductor {
-  margin-left: 20%;
-
+  margin: 20px 25%;
 }
 
 .reproductor audio {
@@ -352,6 +351,9 @@ hr {
    .songs-content {
      height: 350px;
    }
+  .reproductor {
+    margin: 20px 21%;
+  }
 }
 
 .h2-br {
