@@ -378,17 +378,17 @@ hr {
 
 .images-content{
   display: flex;
-  gap: 40px;
   margin: 10px 0;
-  margin-left: 0px;
   overflow: auto;
-  margin-right: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+
 }
 
 .grupo {
   width: 180px;
   margin-bottom: 20px;
-  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .grupo h4 {
