@@ -454,13 +454,13 @@ hr {
   opacity: 1;
 }
 
-.login-grupo-content input {
-  width: 93%;
+.login-input {
+  width: 94%;
+  outline: none;
+  color: black;
   border: none;
   padding: 12px 10px;
   border-radius: 2px;
-  /* background: gray; */
-  color: black;
   margin-top: 10px;
 }
 
