@@ -45,7 +45,7 @@ const grupo44 = document.getElementById('grupo44')
 const grupo45 = document.getElementById('grupo45')
 const grupo46 = document.getElementById('grupo46')
 const grupo47 = document.getElementById('grupo47')
-const grupo48 = document.getElementById('grupo48')
+const grupo48  = document.getElementById('grupo48')
 
 
 const contentGrupo = document.getElementsByClassName('grupo')
@@ -104,9 +104,17 @@ grupo47.addEventListener ('click', canciones)
 grupo48.addEventListener ('click', canciones)
 
 
+const login = document.getElementById('login')
+const loginBtn = document.getElementById('login-btn')
+const principal = document.getElementById('general-container')
+const footer = document.getElementById('general-footer')
 
-
-
+loginBtn.addEventListener('click' , modalPrincipal)
+function modalPrincipal(){
+  login.style.display ='none'
+  principal.style.display='flex'
+  footer.style.display='flex'
+}
 
 
 explorar.addEventListener('click', canciones)

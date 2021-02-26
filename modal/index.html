@@ -9,34 +9,118 @@
       /* width: 80vw; */
       background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
       color: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .images-content {
       display: flex;
       margin: 0 0 100px 0 ;
       gap: 20px;
     }
+    .container {
+      width: 300px;
+      margin: auto;
+      box-shadow: 0px 0px 50px 1px rgba(255, 255, 255, .3);
+      height: 400px;
+      border-radius: 8px;
+      padding: 0 10px;
+      animation-name: home;
+      animation-duration: 600ms;
+      animation-fill-mode:backwards;
+    }
+    @keyframes home {
+      0% {
+        /* transform: rotate(10deg) */
+        transform: translate(2000px);
+        /* transform: scale(20%); */
+      }
+      100% {
+        transform: skew(10deg);
+        /* transform: rotate(20deg); */
+        /* background: red; */
+      }
+
+    }
+    .container h1 {
+      /* font-size: 35px; */
+      margin: 16px auto;
+      width: 140px;
+      /* align-items: center; */
+    }
+    .container h3{
+      font-size: 16px;
+      margin: 8px 0;
+      opacity: 1;
+    }
+    .container input{
+      width: 93%;
+      border: none;
+      padding: 8px 10px;
+      border-radius: 2px;
+      background: gray;
+      color: white;
+      margin-top: 10px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 16px 0;
+    }
+    .container hr {
+      opacity: .3;
+    }
+    .grupo-content {
+      margin: 35px 0;
+      height: 350px;
+    }
+    .grupo1{
+      height: 100px;
+    }
+    .grupo2{
+      height: 100px;
+    }
+    .container button {
+      width: 150px;
+      display: block;
+      margin: 20px auto;
+      padding: 8px 10px;
+      cursor: pointer;
+      background: rgb(81, 214, 81);
+      color: white;
+      border: none;
+      border-radius: 2px;
+      border-radius: 20px;
+      outline: none;
+    }
   </style>
 </head>
 <body>
   <section class="printmodal" id="printmodal">
-    <h2>Inicio</h2>
-    <div class="images-content">
-      <img src="../images/cover/1.png" alt="" width='200xp'>
-      <img src="../images/cover/2.png" alt="" width='200xp'>
-      <img src="../images/cover/3.png" alt="" width='200xp'>
-      <img src="../images/cover/4.png" alt="" width='200xp'>
-    </div>
-    <div class="images-content">
-      <img src="../images/home/1.jpg" alt="" width='200xp'>
-      <img src="../images/home/2.jpeg" alt="" width='200xp'>
-      <img src="../images/home/3.jpeg" alt="" width='200xp'>
-      <img src="../images/home/4.1.jpeg" alt="" width='200xp'>
-    </div>
-    <div class="images-content">
-      <img src="../images/home/8.jpeg" alt="" width='200xp'>
-      <img src="../images/home/6.jpeg" alt="" width='200xp'>
-      <img src="../images/home/8.jpeg" alt="" width='200xp'>
-      <img src="../images/home/6.jpeg" alt="" width='200xp'>
+    <div class="container">
+      <div class="logo">
+        <img src="../images/image-proyect/icon-spotify.png" alt="" width="30px">
+        <img src="../images/image-proyect/logo.png" alt="" width="120px">
+      </div>
+      <hr>
+      <div class="grupo-content">
+        <div class="grupo1">
+          <h3>Correo electrónico</h3>
+          <input type="email" placeholder="value@gmail.com" required>
+        </div>
+        <div class="grupo2">
+          <h3>Contraseña</h3>
+          <input type="password">
+        </div>
+        <button type="submit">LOG IN</button>
+      </div>
     </div>
   </section>
 </body>

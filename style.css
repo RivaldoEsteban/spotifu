@@ -147,6 +147,7 @@ body{
 .general-container {
   display: flex;
   height: 90vh;
+  display: none;
 }
 
 .buscador {
@@ -382,7 +383,6 @@ hr {
   overflow: auto;
   margin-right: 40px;
   margin-left: 40px;
-
 }
 
 .grupo {
@@ -404,4 +404,106 @@ hr {
 .grupo:hover {
   opacity: .5;
   cursor: pointer;
+}
+
+.login {
+  background: linear-gradient(to top, rgb(19, 18, 18) 60%, rgb(70, 69, 69));
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.login-container {
+  width: 300px;
+  margin: auto;
+  box-shadow: 0px 0px 50px 1px rgba(255, 255, 255, .3);
+  height: 400px;
+  border-radius: 8px;
+  padding: 0 10px;
+  animation-name: home;
+  animation-duration: 600ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes home {
+  0% {
+    transform: translate(2000px);
+  }
+
+  100% {
+  }
+
+}
+
+.login-grupo-content h1 {
+  margin: 16px auto;
+  width: 140px;
+}
+
+.login-grupo1 h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  opacity: 1;
+}
+
+.login-grupo-content input {
+  width: 93%;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 2px;
+  background: gray;
+  color: white;
+  margin-top: 10px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.login-container-hr {
+  opacity: 1;
+}
+
+.grupo-content {
+  margin: 35px 0;
+  height: 350px;
+}
+
+.login-grupo1{
+  height: 100px;
+}
+
+.login-grupo2 {
+  height: 100px;
+}
+
+.login-grupo-content button {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+  padding: 12px 10px;
+  cursor: pointer;
+  background: rgb(81, 214, 81);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.allsection {
+  opacity: .2;
+  position: relative;
+  z-index: 1;
 }
