@@ -74,6 +74,9 @@ const audio12 = document.getElementById('audio12')
 const audio13 = document.getElementById('audio13')
 const audio14 = document.getElementById('audio14')
 
+const print = document.getElementsByName('grupo10')
+
+
 
 const imageSong = document.getElementById('footer-image')
 const nameSong = document.getElementById('name-song')
@@ -732,6 +735,7 @@ pause.style.cursor = 'pointer'
 // pause.addEventListener('click', pauseMusic)
 
 //
+
 
 // pauseMusic()
 

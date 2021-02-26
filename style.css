@@ -141,6 +141,7 @@ body{
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   padding-left: 40px;
   width:  100vw;
+  display: none;
 }
 
 .general-container {
@@ -152,6 +153,14 @@ body{
   display: flex;
   margin-top: 40px;
   gap: 15px;
+}
+
+.buscador-img {
+  filter:contrast(10%);
+  /* opacity: .1; */
+  /* filter:drop-shadow(10%); */
+  cursor: pointer;
+  /* opacity: 1; */
 }
 
 .buscador-input {
@@ -338,15 +347,16 @@ hr {
   display: none;
 }
 
- /* @media (min-width: 1600px){
-  .songs-content {
-   height: 500px;
-   }
-} */
+
  @media (max-width: 1700px){
    .songs-content {
      height: 350px;
    }
+}
+
+.h2-br {
+  background: gray;
+  margin: 0 0 0 50px;
 }
 
 .modal-title {
@@ -356,13 +366,15 @@ hr {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: linear-gradient(to left, rgb(70, 69, 69) 100%  ,rgb(49, 49, 49) 0%);
+  /* background: linear-gradient(to left, rgb(70, 69, 69) 100%  , rgb(70, 69, 69) 0%); */
+  background: rgb(63, 62, 62);
 }
 
 .printmodal {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   width: 100%;
   overflow: auto;
+  /* display: none; */
 }
 
 .images-content{
@@ -372,12 +384,13 @@ hr {
   margin-left: 50px;
   overflow: auto;
   margin-right: 10px;
-  /* justify-content: center; */
 }
 
 .grupo {
   width: 180px;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .grupo h4 {
@@ -388,4 +401,9 @@ hr {
   font-size: 14px;
   opacity: .7;
   margin: 0;
+}
+
+.grupo:hover {
+  opacity: .5;
+  cursor: pointer;
 }
