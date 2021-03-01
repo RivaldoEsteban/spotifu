@@ -572,7 +572,7 @@ hr {
   filter: invert(30%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .footer {
     height: 70px;
     position: relative;
