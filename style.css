@@ -595,6 +595,7 @@ hr {
   .section-360-phone {
     display: block;
     position: absolute;
+
   }
   .general-container {
     display: none;
@@ -606,14 +607,17 @@ hr {
   .section-360-phone {
     background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
     color: white;
+    width: 100vw;
   }
   .section-recientes {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
     font-size: 14px;
     padding: 0 20px;
-    width: 340px;
+    gap: 20px;
+  }
+  .section-recientes  div {
+    /* width: 50%; */
   }
   .section-flex-recientes {
     display: flex;
@@ -639,7 +643,6 @@ hr {
   }
 
   .container-360px {
-    width: 340px;
     height: 500px;
     padding: 0 20px;
     overflow: auto;
@@ -713,7 +716,7 @@ hr {
     opacity: .8;
   }
   .media-375px-responsive {
-    height: 88vh;
+    height: 85vh;
   }
   .list-content{
     display: none;
