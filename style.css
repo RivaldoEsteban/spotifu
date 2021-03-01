@@ -577,10 +577,6 @@ hr {
 
 
 
-
-
-
-
 @media (max-width: 500px) {
   .footer-song {
     display: none;
@@ -643,7 +639,7 @@ hr {
   }
 
   .container-360px {
-    height: 330px;
+    max-height: 400px;
     padding: 0 20px;
     overflow: auto;
   }
@@ -662,12 +658,10 @@ hr {
     gap: 10px;
   }
   .footer-360px {
-    height: 15vh;
     position: sticky;
     bottom: 0;
     right: 0;
     left: 0;
-    top: 0;
     z-index: 10;
     background: rgb(44, 44, 44);
   }
@@ -714,9 +708,6 @@ hr {
   }
   .footer-episodio {
     opacity: .8;
-  }
-  .media-375px-responsive {
-    height: 85vh;
   }
   .list-content{
     display: none;
