@@ -587,12 +587,6 @@ hr {
   .login {
     display: none;
   }
-
-  .section-360-phone {
-    display: block;
-    position: absolute;
-
-  }
   .general-container {
     display: none;
   }
@@ -601,9 +595,10 @@ hr {
     position: relative;
   }
   .section-360-phone {
+    display: block;
     background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
     color: white;
-    width: 100vw;
+    width: 100%;
   }
   .section-recientes {
     display: flex;
