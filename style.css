@@ -627,12 +627,14 @@ hr {
   }
   .recomendados {
     display: flex;
-    gap: 20px;
     overflow: auto;
     font-size: 14px;
     width: 100%;
+    /* gap: 10px; */
   }
-
+  .recomendados div {
+    margin-right: 20px;
+  }
   .container-360px {
     padding: 0 20px;
     overflow: auto;
