@@ -582,6 +582,12 @@ hr {
 
 
 @media (max-width: 375px) {
+  .footer-song {
+    display: none;
+  }
+  .reproductor {
+    display: none;
+  }
   .login {
     display: none;
   }
@@ -607,6 +613,7 @@ hr {
     gap: 10px;
     font-size: 14px;
     padding: 0 20px;
+    width: 340px;
   }
   .section-flex-recientes {
     display: flex;
@@ -632,6 +639,7 @@ hr {
   }
 
   .container-360px {
+    width: 340px;
     height: 500px;
     padding: 0 20px;
     border: 1px  solid red;
@@ -644,7 +652,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 50%;
   }
   .footer-grupo1-reproductor {
     display: flex;
@@ -652,6 +660,7 @@ hr {
     gap: 10px;
   }
   .footer-360px {
+    height: 15vh;
     position: sticky;
     bottom: 0;
     right: 0;
@@ -663,6 +672,8 @@ hr {
   .footer-grupo1-img {
     display: flex;
     align-items: center;
+    gap: 10px;
+    margin-right: 20px;
   }
   .footer-grupo1-img img {
     filter: contrast(20%);
@@ -678,8 +689,9 @@ hr {
     display: flex;
     justify-content: center;
     gap: 50px;
-    height: 50px;
     text-align: center;
+    border: 1px solid red;
+    height: 50%;
   }
   .footer-360px-icons img {
     filter: invert(90%);
@@ -701,5 +713,8 @@ hr {
   }
   .footer-episodio {
     opacity: .8;
+  }
+  .media-375px-responsive {
+    height: 85vh;
   }
 }
