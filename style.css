@@ -634,7 +634,6 @@ hr {
   }
 
   .container-360px {
-    max-height: 400px;
     padding: 0 20px;
     overflow: auto;
   }
@@ -655,9 +654,6 @@ hr {
   .footer-360px {
     position: sticky;
     bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
     background: rgb(44, 44, 44);
   }
   .footer-grupo1-img {
