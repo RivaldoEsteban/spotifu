@@ -596,23 +596,26 @@ hr {
   }
   .section-360-phone {
     display: block;
-    background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
     color: white;
     width: 100%;
+    background: linear-gradient(to bottom, rgb(27, 27, 211), rgb(53, 52, 52) 20% );
   }
   .section-recientes {
     display: flex;
     font-size: 14px;
     padding: 0 20px;
   }
-
+  .phone-title {
+    padding-top: 30px;
+    padding: 50px 0 10px;
+    margin: 0 20px;
+  }
   .section-flex-recientes {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     margin-right: 15px;
     gap: 10px;
-    width: 155px;
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
     height: 40px;
@@ -688,10 +691,6 @@ hr {
   }
   .footer-360px-icons div {
     height: 50px;
-  }
-  .phone-title {
-    margin: 0;
-    padding: 12px 20px;
   }
   hr {
     background: black;
