@@ -715,4 +715,13 @@ hr {
   .media-375px-responsive {
     height: 88vh;
   }
+  .list-content{
+    display: none;
+  }
+  .section-inicio-home {
+    display: none;
+  }
+  .hero-content {
+    display: none;
+  }
 }
