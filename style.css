@@ -77,7 +77,6 @@ body{
 }
 
 .footer {
-  /* height:  10vh; */
   background-color: #242424;
   margin: 0;
   position: absolute;
@@ -353,7 +352,7 @@ hr {
      height: 450px;
    }
   .reproductor {
-    margin: 20px 21% 5px;
+    /* margin: 20px 21% 5px; */
   }
 }
 
@@ -572,23 +571,135 @@ hr {
   filter: invert(30%);
 }
 
-@media (max-width: 400px) {
+.section-360-phone {
+  display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+  .login {
+    display: none;
+  }
+
+  .section-360-phone {
+    display: block;
+    position: absolute;
+  }
+  .general-container {
+    display: none;
+  }
   .footer {
-    height: 70px;
+    display: none;
     position: relative;
-    top: 0px;
+  }
+  .section-360-phone {
+    background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
+    color: white;
+  }
+  .section-recientes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .section-flex-recientes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+    height: 40px;
+  }
+  .section-flex-recientes img {
+    width: 40px ;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+  }
+  .recomendados {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    overflow: auto;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .container-360px {
+    height: 500px;
+    padding: 0 20px;
+    border: 1px  solid red;
+    overflow: auto;
+  }
+  p {
+    font-size: 14px;
+  }
+  .footer-360px-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  .footer-grupo1-reproductor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-360px {
+    position: sticky;
     bottom: 0;
     right: 0;
     left: 0;
-    position: relative;
+    top: 0;
+    z-index: 10;
+    background: rgb(44, 44, 44);
   }
-  .footer-song {
-    display: none;
+  .footer-grupo1-img {
+    display: flex;
+    align-items: center;
   }
-  .reproductor {
-    display: none;
+  .footer-grupo1-img img {
+    filter: contrast(20%);
+
   }
-  .list-content {
-    display: none;
+  .footer-grupo1-img img:hover {
+    filter: invert(100%);
+  }
+  .footer-grupo1-reproductor p {
+    margin: 5px 0;
+  }
+  .footer-360px-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  .footer-360px-icons img {
+    filter: invert(90%);
+    height: 25px;
+  }
+  .footer-360px-icons p {
+    margin: 0;
+    height: 25px;
+  }
+  .footer-360px-icons div {
+    height: 50px;
+  }
+  .phone-title {
+    margin: 0;
+    padding: 12px 20px;
+  }
+  hr {
+    opacity: .3;
+  }
+  .footer-episodio {
+    opacity: .8;
   }
 }
