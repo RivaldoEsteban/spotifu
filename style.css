@@ -12,6 +12,7 @@ body{
 .list-content {
   background:  #030303;
   width: 225px;
+  height: 90vh;
 }
 
 .logo {
@@ -19,7 +20,7 @@ body{
 }
 
 .container {
-  height: 78vh;
+  height: 70vh;
   overflow: auto;
 }
 
@@ -145,7 +146,7 @@ body{
 
 .general-container {
   display: flex;
-  height: 90vh;
+  width: 100%;
   display: none;
 }
 
@@ -233,9 +234,6 @@ body{
 
 .album-songs {
   margin-top: 30px;
-  /* border: 1px solid red; */
-  width: 80vw;
-  /* overflow: auto; */
 }
 
 .album-songs h4{
@@ -349,19 +347,19 @@ hr {
 
 @media (min-width: 1700px){
    .songs-content {
-     height: 450px;
+     max-height: 450px;
    }
    .reproductor {
     margin: 20px 400px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .footer-name-autor {
     width: 200px;
   }
   .name-song-content img {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .reproductor {
     margin: 20px 150px;
@@ -386,8 +384,9 @@ hr {
 .section-inicio-home {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   width: 100%;
+  height: 90vh;
   overflow: auto;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .images-content{
@@ -591,9 +590,6 @@ hr {
   .songs-content  {
     height: 320px;
   }
-  /* .reproductor {
-    margin: 20px 30%;
-  } */
 }
 @media (max-width: 900px){
   .reproductor {
@@ -777,3 +773,12 @@ hr {
     height: inherit;
   }
 }
+
+/* @media (max-width:600px) {
+  .general-container {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+} */
