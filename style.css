@@ -598,7 +598,7 @@ hr {
     display: block;
     color: white;
     width: 100%;
-    background: linear-gradient(to bottom, rgb(27, 27, 211), rgb(53, 52, 52) 20% );
+    background: linear-gradient(to bottom, rgb(27, 27, 211), rgb(34, 34, 34) 20% );
   }
   .section-recientes {
     display: flex;
