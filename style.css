@@ -728,6 +728,8 @@ hr {
     margin: 0px 20px;
   }
   .footer-500px {
+    height: 115px;
+    box-sizing: border-box;
     position: sticky;
     bottom: 0;
     right: 0;
@@ -800,5 +802,3 @@ hr {
     height: inherit;
   }
 }
-
-\
