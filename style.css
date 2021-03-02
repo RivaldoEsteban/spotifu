@@ -583,7 +583,7 @@ hr {
   filter: invert(30%);
 }
 
-.section-360-phone {
+.section-500-responsive {
   display: none;
 }
 
@@ -629,7 +629,7 @@ hr {
     display: none;
     position: relative;
   }
-  .section-360-phone {
+  .section-500-responsive {
     display: block;
     color: white;
     width: 100%;
@@ -683,7 +683,7 @@ hr {
     margin-right: 15px;
     margin-bottom: 15px;
   }
-  .container-360px {
+  .section-gruop-albums-container {
     padding: 0 20px;
     overflow: auto;
   }
@@ -699,11 +699,11 @@ hr {
   .text-recomendado {
     opacity: .5;
   }
-  .footer-360px-content {
+  .footer-500px-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50%;
+    height: 60px;
   }
   .footer-grupo1-reproductor {
     display: flex;
@@ -712,7 +712,7 @@ hr {
   .footer-grupo1-reproductor div {
     margin: 5px 20px;
   }
-  .footer-360px {
+  .footer-500px {
     position: sticky;
     bottom: 0;
     right: 0;
@@ -734,30 +734,30 @@ hr {
   .footer-grupo1-reproductor p {
     margin: 5px 0;
   }
-  .footer-360px-icons {
+  .footer-500px-icons {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 50%;
+    height: 60px;
     padding: 5px 0;
+    box-sizing: border-box;
   }
-  .footer-360px-icons div {
+  .footer-500px-icons div {
     margin: 4px 20px;
+    height: 50px;
   }
-  .footer-360px-icons img {
+  .footer-500px-icons img {
     filter: invert(90%);
     height: 25px;
   }
-  .footer-360px-icons p {
+  .footer-500px-icons p {
     margin: 0;
     height: 25px;
   }
-  .footer-360px-icons div {
-    height: 50px;
-  }
+
   hr {
-    background: black;
-    opacity: .3;
+    background:white;
+    opacity: .2;
   }
   .footer-episodio {
     opacity: .8;
