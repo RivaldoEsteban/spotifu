@@ -656,7 +656,9 @@ hr {
   .footer-grupo1-reproductor {
     display: flex;
     align-items: center;
-    column-gap: 10px;
+  }
+  .footer-grupo1-reproductor div {
+    margin: 5px 20px;
   }
   .footer-360px {
     position: sticky;
@@ -682,10 +684,12 @@ hr {
   .footer-360px-icons {
     display: flex;
     justify-content: center;
-    column-gap: 50px;
     text-align: center;
     height: 50%;
     padding: 5px 0;
+  }
+  .footer-360px-icons div {
+    margin: 4px 20px;
   }
   .footer-360px-icons img {
     filter: invert(90%);
