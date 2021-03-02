@@ -668,12 +668,11 @@ hr {
   .footer-grupo1-img {
     display: flex;
     align-items: center;
-    column-gap: 10px;
-    margin-right: 20px;
+    /* margin-right: 10px; */
   }
   .footer-grupo1-img img {
     filter: contrast(20%);
-
+    margin: 0 10px;
   }
   .footer-grupo1-img img:hover {
     filter: invert(100%);
