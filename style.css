@@ -703,14 +703,15 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
   }
   .footer-grupo1-reproductor {
     display: flex;
     align-items: center;
+    height: 100%;
   }
   .footer-grupo1-reproductor div {
-    margin: 5px 20px;
+    margin: 0px 20px;
   }
   .footer-500px {
     position: sticky;
@@ -758,6 +759,7 @@ hr {
   hr {
     background:white;
     opacity: .2;
+    margin: 0;
   }
   .footer-episodio {
     opacity: .8;
