@@ -145,7 +145,6 @@ body{
 
 .general-container {
   display: flex;
-  height: 90vh;
   display: none;
 }
 
@@ -676,6 +675,8 @@ hr {
   .footer-360px {
     position: sticky;
     bottom: 0;
+    right: 0;
+    left: 0;
     background: rgb(44, 44, 44);
   }
   .footer-grupo1-img {
