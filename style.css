@@ -640,6 +640,9 @@ hr {
     font-size: 14px;
     padding: 0 20px;
   }
+  .section-recientes-content.margen{
+    margin-right: 15px;
+  }
   .section-recientes-content {
     width: 50%;
   }
@@ -652,7 +655,6 @@ hr {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    margin-right: 15px;
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
     height: 40px;
