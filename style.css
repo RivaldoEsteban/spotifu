@@ -294,7 +294,8 @@ body{
 }
 
 .songs-content {
-  height: 340px;
+  max-height:500px ;
+  /* height: 340px; */
   overflow: auto;
   color: rgb(231, 231, 231);
   cursor: pointer;
@@ -345,11 +346,12 @@ hr {
 
 
 @media (min-width: 1700px){
-   .songs-content {
-     max-height: 450px;
+    .songs-content {
+      height: 380px;
    }
    .reproductor {
-    margin: 20px 400px;
+     margin-left: 25%;
+    /* margin: 20px 400px; */
   }
 }
 
@@ -587,7 +589,10 @@ hr {
 
 @media(max-width: 1700px) {
   .songs-content  {
-    height: 320px;
+    max-height: 350px ;
+  }
+  .reproductor {
+     margin-left: 19%;
   }
 }
 @media (max-width: 900px){
@@ -608,44 +613,55 @@ hr {
 
 
 @media (max-width: 500px) {
+
   .footer-song {
     display: none;
   }
+
   .reproductor {
     display: none;
   }
+
   .login {
     display: none;
   }
+
   .general-container {
     display: none;
   }
+
   .footer {
     display: none;
     position: relative;
   }
+
   .section-500-responsive {
     display: block;
     color: white;
     width: 100%;
     background: linear-gradient(to bottom, rgb(27, 27, 211), rgb(34, 34, 34) 20% );
   }
+
   .section-recientes {
     display: flex;
     font-size: 14px;
     padding: 0 20px;
   }
+
   .section-recientes-content.margen{
     margin-right: 15px;
   }
+
   .section-recientes-content {
     width: 50%;
   }
+
   .phone-title {
     padding-top: 30px;
     padding: 50px 0 10px;
     margin: 0 20px;
   }
+
   .section-flex-recientes {
     display: flex;
     align-items: center;
@@ -668,16 +684,19 @@ hr {
     height: 40px;
     border-radius: 5px 0 0 5px;
   }
+
   .recomendados {
     display: flex;
     overflow: auto;
     font-size: 14px;
     width: 100%;
   }
+
   .recomendados div {
     margin-right: 15px;
     margin-bottom: 15px;
   }
+
   .section-gruop-albums-container {
     padding: 0 20px;
     overflow: auto;
@@ -730,6 +749,7 @@ hr {
   .footer-grupo1-reproductor p {
     margin: 3px 0;
   }
+
   .footer-500px-icons {
     display: flex;
     justify-content: center;
@@ -738,14 +758,17 @@ hr {
     padding: 5px 0;
     box-sizing: border-box;
   }
+
   .footer-500px-icons div {
     margin: 4px 20px;
     height: 50px;
   }
+
   .footer-500px-icons img {
     filter: invert(90%);
     height: 25px;
   }
+
   .footer-500px-icons p {
     margin: 0;
     height: 25px;
@@ -756,19 +779,26 @@ hr {
     opacity: .2;
     margin: 0;
   }
+
   .footer-episodio {
     opacity: .8;
   }
+
   .list-content{
     display: none;
   }
+
   .section-inicio-home {
     display: none;
   }
+
   .hero-content {
     display: none;
   }
+
   .general-container  {
     height: inherit;
   }
 }
+
+\
