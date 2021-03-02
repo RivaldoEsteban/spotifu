@@ -145,6 +145,7 @@ body{
 
 .general-container {
   display: flex;
+  height: 90vh;
   display: none;
 }
 
@@ -350,8 +351,20 @@ hr {
    .songs-content {
      height: 450px;
    }
+   .reproductor {
+    margin: 20px 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-name-autor {
+    width: 200px;
+  }
+  .name-song-content img {
+    margin-left: 20px;
+  }
   .reproductor {
-    /* margin: 20px 21% 5px; */
+    margin: 20px 150px;
   }
 }
 
@@ -574,6 +587,29 @@ hr {
   display: none;
 }
 
+@media(max-width: 1700px) {
+  .songs-content  {
+    height: 320px;
+  }
+  /* .reproductor {
+    margin: 20px 30%;
+  } */
+}
+@media (max-width: 900px){
+  .reproductor {
+    margin: 20px 10px;
+  }
+@media (max-width:800px) {
+  .input-time {
+    width: 300px;
+  }
+}
+@media (max-width:700px) {
+  .input-time {
+    width: 250px;
+  }
+}
+
 
 
 @media (max-width: 500px) {
@@ -604,13 +640,15 @@ hr {
     font-size: 14px;
     padding: 0 20px;
   }
+  .section-recientes-content {
+    width: 50%;
+  }
   .phone-title {
     padding-top: 30px;
     padding: 50px 0 10px;
     margin: 0 20px;
   }
   .section-flex-recientes {
-    width: 150px;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -730,5 +768,8 @@ hr {
   }
   .hero-content {
     display: none;
+  }
+  .general-container  {
+    height: inherit;
   }
 }
