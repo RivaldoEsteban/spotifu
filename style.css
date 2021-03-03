@@ -868,8 +868,7 @@ hr {
   right: 0;
   left: 0;
   height: 100px;
-  background: linear-gradient(to left,rgb(71, 70, 70)40%,gray);
-
+  background: rgb(36, 35, 35);
 }
 .song-list {
   height: 50px;
