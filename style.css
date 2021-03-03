@@ -795,10 +795,114 @@ hr {
   }
 
   .hero-content {
-    display: none;
+    /* display: none; */
   }
 
   .general-container  {
     height: inherit;
   }
+}
+
+.new-section-song-500px {
+  display: none;
+}
+
+.new-section-song-500px {
+  background-image: linear-gradient(to top, black 30%, rgba(0,0,0,.5)80%,transparent 100%);
+  height: 800px;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: ; */
+}
+.img-new-section {
+  margin: auto;
+  display: block;
+}
+.section-container-logo {
+  text-align: center ;
+  /* background-image: url(images/co ver/mix3.jpeg); */
+}
+.btn-new-section {
+  max-width: 200px;
+  padding: 15px 44px;
+  border: none;
+  background: rgb(89, 185, 76);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn-seguir {
+  background: none;
+  border: 1px solid gray;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.txt-home {
+  font-size: 14px;
+}
+.new-footer {
+  display: flex;
+  justify-content: center;
+}
+.new-footer img {
+  width: 25px;
+  filter: invert(100%);
+  margin: 0 30px;
+}
+.new-footer-container {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  background: linear-gradient(to left,rgb(71, 70, 70)40%,gray);
+
+}
+.song-list {
+  height: 50px;
+  display: flex;
+}
+.song-list img {
+  margin-right: 8px;
+}
+.song-list-content {
+  height: 300px;
+  overflow: auto;
+}
+.autor{
+  display: flex;
+  align-items: center;
+  /* font-size: px; */
+}
+.title-nueva-song {
+  margin: 0 5px;
+}
+.txt-back {
+  margin: 0 5px;
+  background: rgb(204, 204, 204);
+  color: black;
+  text-transform: uppercase;
+  padding: 0 4px;
+}
+.name-artits {
+  height: 20px;
+  margin: 0 5px;
+  opacity: .6;
+  font-size: 14px;
+}
+.info-song {
+  margin: auto 0;
 }
