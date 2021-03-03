@@ -804,7 +804,7 @@ hr {
 }
 
 .new-section-song-500px {
-  background-image: linear-gradient(to top,rgb(56, 56, 56) 40%,rgb(85, 134, 119), green );
+  background-image: linear-gradient(to bottom, rgb(27, 27, 211), rgb(34, 34, 34) 60%);
   height: 800px;
   color: white;
   font-size: 12px;
@@ -867,7 +867,7 @@ hr {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgb(65, 64, 64);
+  background: rgb(44, 44, 44);
 }
 .song-list {
   margin: auto 20px 10px;
