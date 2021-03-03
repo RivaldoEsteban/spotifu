@@ -780,6 +780,7 @@ hr {
     background:white;
     opacity: .2;
     margin: 0;
+    display: none;
   }
 
   .footer-episodio {
@@ -793,11 +794,6 @@ hr {
   .section-inicio-home {
     display: none;
   }
-
-  .hero-content {
-    /* display: none; */
-  }
-
   .general-container  {
     height: inherit;
   }
@@ -808,7 +804,7 @@ hr {
 }
 
 .new-section-song-500px {
-  background-image: linear-gradient(to top, black 30%, rgba(0,0,0,.5)80%,transparent 100%);
+  background-image: linear-gradient(to top,rgb(56, 56, 56) 40%,rgb(85, 134, 119), green );
   height: 800px;
   color: white;
   font-size: 12px;
@@ -856,9 +852,13 @@ hr {
 .new-footer {
   display: flex;
   justify-content: center;
+  height: 50%;
+  border-top: 1px solid black ;
+  padding: 5px 0;
+  box-sizing: border-box;
 }
 .new-footer img {
-  width: 25px;
+  width: 22px;
   filter: invert(100%);
   margin: 0 30px;
 }
@@ -867,12 +867,13 @@ hr {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 100px;
-  background: rgb(0, 0, 0);
+  background: rgb(65, 64, 64);
 }
 .song-list {
+  margin: auto 20px 10px;
   height: 50px;
   display: flex;
+  justify-content: space-between;
 }
 .song-list img {
   margin-right: 8px;
@@ -904,4 +905,60 @@ hr {
 }
 .info-song {
   margin: auto 0;
+}
+
+.footer-name-song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+.footer-name-song p {
+  margin: 5px 0;
+}
+
+.footer-icon-reproductor {
+  display: flex;
+}
+
+.footer-icon-reproductor  img {
+  filter: invert(100%);
+  margin: auto 10px;
+}
+
+.footer-img-name {
+  display: flex;
+}
+
+.name-songs {
+  margin: 5px 20px;
+}
+
+.name-songs marquee {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.name-songs p {
+  opacity: .6;
+  margin: 0;
+}
+
+.new-footer div {
+  text-align: center;
+}
+
+/* s */
+
+.icon-volver-home img {
+  margin: 30px 10px 10px;
+  filter: invert(90%);
+  width: 25px;
+}
+
+.song-list-gruop {
+  display: flex;
+}
+
+.icono-play-music {
+  filter: invert(50%);
 }
