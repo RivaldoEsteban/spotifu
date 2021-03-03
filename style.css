@@ -613,7 +613,9 @@ hr {
 
 
 @media (max-width: 500px) {
-
+  .section-inicio-home {
+    display: none;
+  }
   .footer-song {
     display: none;
   }
@@ -847,12 +849,16 @@ hr {
   cursor: pointer;
 }
 .txt-home {
-  font-size: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: .8;
+  margin: 14px 0;
+
 }
 .new-footer {
   display: flex;
   justify-content: center;
-  height: 50%;
+  height:  60px;
   border-top: 1px solid black ;
   padding: 5px 0;
   box-sizing: border-box;
@@ -868,7 +874,6 @@ hr {
   right: 0;
   left: 0;
   background: rgb(44, 44, 44);
-  height: 115px;
 }
 .song-list {
   margin: auto 20px 10px;
@@ -932,6 +937,11 @@ hr {
 
 .footer-img-name {
   display: flex;
+}
+.footer-img-name img{
+  aspect-ratio:unset;
+  width: 50px;
+  height: 50px;
 }
 
 .name-songs {
