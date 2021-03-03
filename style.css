@@ -804,7 +804,7 @@ hr {
 }
 
 .new-section-song-500px {
-  background-image: linear-gradient(to bottom, rgb(27, 27, 211), rgb(34, 34, 34) 60%);
+  background-image: linear-gradient(to top, rgb(34, 34, 34) 40%,rgb(23, 23, 177)  , rgb(21, 21, 231));
   height: 800px;
   color: white;
   font-size: 12px;
@@ -868,6 +868,7 @@ hr {
   right: 0;
   left: 0;
   background: rgb(44, 44, 44);
+  height: 115px;
 }
 .song-list {
   margin: auto 20px 10px;
@@ -922,8 +923,11 @@ hr {
 }
 
 .footer-icon-reproductor  img {
-  filter: invert(100%);
+  filter: contrast(20%);
   margin: auto 10px;
+}
+.footer-icon-reproductor  img:hover {
+  filter: invert(100%)
 }
 
 .footer-img-name {
@@ -950,9 +954,9 @@ hr {
 /* s */
 
 .icon-volver-home img {
-  margin: 30px 10px 10px;
+  margin: 20px 20px 10px;
   filter: invert(90%);
-  width: 25px;
+  width: 20px;
 }
 
 .song-list-gruop {
