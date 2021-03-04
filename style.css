@@ -632,7 +632,9 @@ hr {
   .reproductor {
     display: none;
   }
-
+  .title-name-song-album {
+    font-weight: bolder;
+  }
   .login {
     display: none;
   }
@@ -724,6 +726,9 @@ hr {
   .text-recomendado {
     opacity: .5;
   }
+  #footer-artista {
+    margin: 3px 0;
+  }
   .footer-500px-content {
     display: flex;
     justify-content: space-between;
@@ -795,7 +800,7 @@ hr {
   }
 
   .footer-episodio {
-    opacity: .8;
+    opacity: .6;
   }
 
   .list-content{
@@ -953,16 +958,21 @@ hr {
 }
 
 .name-songs {
-  margin: 5px 20px;
+  height: 39px;
+  margin: auto 20px;
 }
 
 .name-songs marquee {
   text-transform: uppercase;
   font-weight: bold;
+  height: 16px;
 }
 .name-songs p {
   opacity: .6;
   margin: 0;
+  font-size: 12px;
+  height: 14px;
+
 }
 
 .new-footer div {
