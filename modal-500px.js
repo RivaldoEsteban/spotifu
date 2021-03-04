@@ -1,12 +1,59 @@
 const cotorro = document.getElementById('cotorros')
 const modalPhone = document.getElementById('responsive-500px')
 const printListSong = document.getElementById('nueva-seccion')
+const retrocederModal = document.getElementById('retrocederModal')
+
+
+const printNewmodal1 = document.getElementById('newmodal1')
+const printNewmodal2 = document.getElementById('newmodal2')
+const printNewmodal3 = document.getElementById('newmodal3')
+const printNewmodal4 = document.getElementById('newmodal4')
+const printNewmodal5 = document.getElementById('newmodal5')
+const printNewmodal6 = document.getElementById('newmodal6')
+const printNewmodal7 = document.getElementById('newmodal7')
+const printNewmodal8 = document.getElementById('newmodal8')
+const printNewmodal9 = document.getElementById('newmodal9')
+const printNewmodal10 = document.getElementById('newmodal10')
+const printNewmodal11 = document.getElementById('newmodal11')
+const printNewmodal12 = document.getElementById('newmodal12')
+const printNewmodal13 = document.getElementById('newmodal13')
+const printNewmodal14 = document.getElementById('newmodal14')
+const printNewmodal15 = document.getElementById('newmodal15')
+const printNewmodal16 = document.getElementById('newmodal16')
+const printNewmodal17 = document.getElementById('newmodal17')
+const printNewmodal18 = document.getElementById('newmodal18')
 
 cotorro.addEventListener('click' , printNuevaListSong)
+retrocederModal.addEventListener('click' , volverHome500)
+
+printNewmodal1.addEventListener('click', printNuevaListSong)
+printNewmodal2.addEventListener('click', printNuevaListSong)
+printNewmodal3.addEventListener('click', printNuevaListSong)
+printNewmodal4.addEventListener('click', printNuevaListSong)
+printNewmodal5.addEventListener('click', printNuevaListSong)
+printNewmodal6.addEventListener('click', printNuevaListSong)
+printNewmodal7.addEventListener('click', printNuevaListSong)
+printNewmodal8.addEventListener('click', printNuevaListSong)
+printNewmodal9.addEventListener('click', printNuevaListSong)
+printNewmodal10.addEventListener('click', printNuevaListSong)
+printNewmodal11.addEventListener('click', printNuevaListSong)
+printNewmodal12.addEventListener('click', printNuevaListSong)
+printNewmodal13.addEventListener('click', printNuevaListSong)
+printNewmodal14.addEventListener('click', printNuevaListSong)
+printNewmodal15.addEventListener('click', printNuevaListSong)
+printNewmodal16.addEventListener('click', printNuevaListSong)
+printNewmodal17.addEventListener('click', printNuevaListSong)
+printNewmodal18.addEventListener('click', printNuevaListSong)
+
 
 function printNuevaListSong(){
   modalPhone.style.display = 'none'
   printListSong.style.display ='block'
+}
+
+function volverHome500() {
+  modalPhone.style.display = 'block'
+  printListSong.style.display = 'none'
 }
 
 
@@ -51,37 +98,446 @@ newIconplay12.addEventListener('click' ,reproducirNewSong12, false)
 //a mi
 function reproducirNewSong1 () {
   reproducir1(newSongList1, newIconplay1)
+  newIconplay1.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong2 () {
   reproducir1(newSongList2, newIconplay2)
+  newIconplay2.style.filter = 'invert(100%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList1.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong3 () {
   reproducir1(newSongList3, newIconplay3)
+  newIconplay3.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList1.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong4 () {
   reproducir1(newSongList4, newIconplay4)
+  newIconplay4.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList1.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong5 () {
   reproducir1(newSongList5, newIconplay5)
+  newIconplay5.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList1.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong6 () {
   reproducir1(newSongList6, newIconplay6)
+  newIconplay6.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList1.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong7 () {
   reproducir1(newSongList7, newIconplay7)
+  newIconplay7.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList1.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong8 () {
   reproducir1(newSongList8, newIconplay8)
+  newIconplay8.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList1.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong9 () {
   reproducir1(newSongList9, newIconplay9)
+  newIconplay9.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList1.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong10 () {
   reproducir1(newSongList10, newIconplay10)
+  newIconplay10.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList1.pause();
+  newSongList11.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong11 () {
   reproducir1(newSongList11, newIconplay11)
+  newIconplay11.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList1.pause();
+  newSongList12.pause();
 }
 function reproducirNewSong12 () {
   reproducir1(newSongList12, newIconplay12)
+  newIconplay12.style.filter = 'invert(100%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList1.pause();
 }
+

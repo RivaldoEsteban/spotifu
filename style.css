@@ -741,7 +741,7 @@ hr {
   .footer-grupo1-img {
     display: flex;
     align-items: center;
-    /* margin-right: 10px; */
+    margin-right: 20px;
   }
   .footer-grupo1-img img {
     filter: contrast(20%);
@@ -921,6 +921,7 @@ hr {
 
 .footer-icon-reproductor {
   display: flex;
+  margin-right: 20px;
 }
 
 .footer-icon-reproductor  img {
