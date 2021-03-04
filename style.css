@@ -807,11 +807,9 @@ hr {
 
 .new-section-song-500px {
   background-image: linear-gradient(to bottom, rgb(27, 27, 211), rgb(34, 34, 34) 40% );
-  height: 800px;
   color: white;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  /* background: ; */
 }
 .img-new-section {
   margin: auto;
@@ -884,14 +882,11 @@ hr {
 .song-list img {
   margin-right: 8px;
 }
-.song-list-content {
-  height: 300px;
-  overflow: auto;
-}
+
 .autor{
   display: flex;
   align-items: center;
-  /* font-size: px; */
+  height: 20px;
 }
 .title-nueva-song {
   margin: 0 5px;
@@ -905,9 +900,10 @@ hr {
 }
 .name-artits {
   height: 20px;
-  margin: 0 5px;
+  margin: 6px 5px 0;
   opacity: .6;
   font-size: 14px;
+
 }
 .info-song {
   margin: auto 0;
@@ -961,7 +957,14 @@ hr {
   text-align: center;
 }
 
-/* s */
+/* .icon-volver-home {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgb(27, 27, 184);
+  z-index: 100;
+} */
 
 .icon-volver-home img {
   margin: 20px 20px 10px;
