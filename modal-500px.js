@@ -27,6 +27,10 @@ const iconhome500 = document.getElementById('iconoInicio')
 const iconbuscar500 = document.getElementById('iconobuscar')
 const iconradio500 = document.getElementById('iconoRadio')
 
+const imageFooter = document.getElementById('img-footer500')
+const nameSongFooter = document.getElementById('footer-name-song')
+const nameArtistFooter = document.getElementById('footer-artista')
+
 iconhome500.addEventListener('click', volverHome500)
 iconbuscar500.addEventListener('click', printNuevaListSong)
 iconradio500.addEventListener('click', printNuevaListSong)
@@ -107,6 +111,9 @@ newIconplay11.addEventListener('click' ,reproducirNewSong11, false)
 newIconplay12.addEventListener('click' ,reproducirNewSong12, false)
 //a mi
 function reproducirNewSong1 () {
+  imageFooter.src ='images/mobile/nicky.jpeg'
+  nameSongFooter.textContent = 'Ella no es Tuya - Remix'
+  nameArtistFooter.textContent = 'Mike towers,Nicky Nicole'
   reproducir1(newSongList1, newIconplay1)
   newIconplay1.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -144,6 +151,9 @@ function reproducirNewSong1 () {
   newSongList12.pause();
 }
 function reproducirNewSong2 () {
+  imageFooter.src = 'images/mobile/boza.jpeg'
+  nameSongFooter.textContent = 'Hecha Pa Mi'
+  nameArtistFooter.textContent = 'Boza'
   reproducir1(newSongList2, newIconplay2)
   newIconplay2.style.filter = 'invert(100%)'
   newIconplay1.style.filter = 'contrast(20%)'
@@ -181,6 +191,9 @@ function reproducirNewSong2 () {
   newSongList12.pause();
 }
 function reproducirNewSong3 () {
+  imageFooter.src = 'images/mobile/cazzu.jpeg'
+  nameSongFooter.textContent = 'Solita - Remix'
+  nameArtistFooter.textContent = 'Mechi Pieretti, Cazzu'
   reproducir1(newSongList3, newIconplay3)
   newIconplay3.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -218,6 +231,9 @@ function reproducirNewSong3 () {
   newSongList12.pause();
 }
 function reproducirNewSong4 () {
+  imageFooter.src = 'images/mobile/dibujame.jpeg'
+  nameSongFooter.textContent = 'Dibujame'
+  nameArtistFooter.textContent = 'Rich Vagos, Samantha'
   reproducir1(newSongList4, newIconplay4)
   newIconplay4.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -255,6 +271,9 @@ function reproducirNewSong4 () {
   newSongList12.pause();
 }
 function reproducirNewSong5 () {
+  imageFooter.src = 'images/mobile/endgame.jpeg'
+  nameSongFooter.textContent = 'Come and Get Your Love'
+  nameArtistFooter.textContent = 'Redbone'
   reproducir1(newSongList5, newIconplay5)
   newIconplay5.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -292,6 +311,9 @@ function reproducirNewSong5 () {
   newSongList12.pause();
 }
 function reproducirNewSong6 () {
+  imageFooter.src = 'images/mobile/futuro.jpeg'
+  nameSongFooter.textContent = 'Life is Good'
+  nameArtistFooter.textContent = 'Future, Drake'
   reproducir1(newSongList6, newIconplay6)
   newIconplay6.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -329,6 +351,9 @@ function reproducirNewSong6 () {
   newSongList12.pause();
 }
 function reproducirNewSong7 () {
+  imageFooter.src = 'images/mobile/londra.jpeg'
+  nameSongFooter.textContent = 'Solo Pienso en Ti'
+  nameArtistFooter.textContent = 'Paulo Londra, Justin Quiles'
   reproducir1(newSongList7, newIconplay7)
   newIconplay7.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -366,6 +391,9 @@ function reproducirNewSong7 () {
   newSongList12.pause();
 }
 function reproducirNewSong8 () {
+  imageFooter.src = 'images/mobile/pont_pa_mi.jpeg'
+  nameSongFooter.textContent = 'Ponte Pa Mi'
+  nameArtistFooter.textContent = 'Justin Quiles'
   reproducir1(newSongList8, newIconplay8)
   newIconplay8.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -403,6 +431,9 @@ function reproducirNewSong8 () {
   newSongList12.pause();
 }
 function reproducirNewSong9 () {
+  imageFooter.src = 'images/mobile/postmalone.jpg'
+  nameSongFooter.textContent = 'Circles'
+  nameArtistFooter.textContent = 'Post Malone'
   reproducir1(newSongList9, newIconplay9)
   newIconplay9.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -440,6 +471,9 @@ function reproducirNewSong9 () {
   newSongList12.pause();
 }
 function reproducirNewSong10 () {
+  imageFooter.src = 'images/mobile/relsb.jpeg'
+  nameSongFooter.textContent = 'A Mi'
+  nameArtistFooter.textContent = 'Rels B'
   reproducir1(newSongList10, newIconplay10)
   newIconplay10.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -477,6 +511,9 @@ function reproducirNewSong10 () {
   newSongList12.pause();
 }
 function reproducirNewSong11 () {
+  imageFooter.src = 'images/mobile/room.jpeg'
+  nameSongFooter.textContent = 'Dancing in my Room'
+  nameArtistFooter.textContent = '347 Aidan  '
   reproducir1(newSongList11, newIconplay11)
   newIconplay11.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
@@ -514,6 +551,9 @@ function reproducirNewSong11 () {
   newSongList12.pause();
 }
 function reproducirNewSong12 () {
+  imageFooter.src = 'images/mobile/victoria.jpeg'
+  nameSongFooter.textContent = 'Victoria'
+  nameArtistFooter.textContent = 'Lunay, Beéle'
   reproducir1(newSongList12, newIconplay12)
   newIconplay12.style.filter = 'invert(100%)'
   newIconplay2.style.filter = 'contrast(20%)'
