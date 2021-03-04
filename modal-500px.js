@@ -606,3 +606,14 @@ function reproducirNewSong12 () {
   newSongList1.pause();
 }
 
+const min = 1;
+const max = 12;
+
+function getRandomArbitrary() {
+  const aleatorio = Math.round( Math.random() * (max - min) + min)
+  console.log(aleatorio)
+}
+
+function reproSongAleatorio(getRandomArbitrary) {
+  newSongListgetRandomArbitrary.play();
+}
