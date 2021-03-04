@@ -60,15 +60,7 @@ printNewmodal17.addEventListener('click', printNuevaListSong)
 printNewmodal18.addEventListener('click', printNuevaListSong)
 
 
-function printNuevaListSong(){
-  modalPhone.style.display = 'none'
-  printListSong.style.display ='block'
-}
 
-function volverHome500() {
-  modalPhone.style.display = 'block'
-  printListSong.style.display = 'none'
-}
 
 
 const newSongList1 = document.getElementById('newsong1')
@@ -109,6 +101,29 @@ newIconplay9.addEventListener('click' ,reproducirNewSong9, false)
 newIconplay10.addEventListener('click' ,reproducirNewSong10, false)
 newIconplay11.addEventListener('click' ,reproducirNewSong11, false)
 newIconplay12.addEventListener('click' ,reproducirNewSong12, false)
+
+function printNuevaListSong() {
+  modalPhone.style.display = 'none'
+  printListSong.style.display = 'block'
+}
+
+function volverHome500() {
+  modalPhone.style.display = 'block'
+  printListSong.style.display = 'none'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
+}
+
 //a mi
 function reproducirNewSong1 () {
   imageFooter.src ='images/mobile/nicky.jpeg'
