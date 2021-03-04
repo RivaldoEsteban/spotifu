@@ -23,8 +23,18 @@ const printNewmodal16 = document.getElementById('newmodal16')
 const printNewmodal17 = document.getElementById('newmodal17')
 const printNewmodal18 = document.getElementById('newmodal18')
 
+const iconhome500 = document.getElementById('iconoInicio')
+const iconbuscar500 = document.getElementById('iconobuscar')
+const iconradio500 = document.getElementById('iconoRadio')
+
+iconhome500.addEventListener('click', volverHome500)
+iconbuscar500.addEventListener('click', printNuevaListSong)
+iconradio500.addEventListener('click', printNuevaListSong)
+
 cotorro.addEventListener('click' , printNuevaListSong)
 retrocederModal.addEventListener('click' , volverHome500)
+
+
 
 printNewmodal1.addEventListener('click', printNuevaListSong)
 printNewmodal2.addEventListener('click', printNuevaListSong)
