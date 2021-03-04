@@ -40,6 +40,9 @@ retrocederModal.addEventListener('click' , volverHome500)
 
 
 
+
+
+
 printNewmodal1.addEventListener('click', printNuevaListSong)
 printNewmodal2.addEventListener('click', printNuevaListSong)
 printNewmodal3.addEventListener('click', printNuevaListSong)
@@ -58,7 +61,6 @@ printNewmodal15.addEventListener('click', printNuevaListSong)
 printNewmodal16.addEventListener('click', printNuevaListSong)
 printNewmodal17.addEventListener('click', printNuevaListSong)
 printNewmodal18.addEventListener('click', printNuevaListSong)
-
 
 
 
@@ -88,6 +90,19 @@ const newIconplay9 = document.getElementById('newIcon9')
 const newIconplay10 = document.getElementById('newIcon10')
 const newIconplay11 = document.getElementById('newIcon11')
 const newIconplay12 = document.getElementById('newIcon12')
+
+const min = 1;
+const max = 12;
+
+function getRandomArbitrary() {
+  return Math.round(Math.random() * (max - min) + min)
+}
+
+function reproSongAleatorio() {
+  let songAleatorio = `newSongList${getRandomArbitrary()}`
+  console.log(songAleatorio)
+}
+reproSongAleatorio()
 
 newIconplay1.addEventListener('click' ,reproducirNewSong1, false)
 newIconplay2.addEventListener('click' ,reproducirNewSong2, false)
@@ -122,6 +137,30 @@ function volverHome500() {
   newSongList10.pause();
   newSongList11.pause();
   newSongList12.pause();
+  newIconplay1.style.filter = 'contrast(20%)'
+  newIconplay2.style.filter = 'contrast(20%)'
+  newIconplay3.style.filter = 'contrast(20%)'
+  newIconplay4.style.filter = 'contrast(20%)'
+  newIconplay5.style.filter = 'contrast(20%)'
+  newIconplay6.style.filter = 'contrast(20%)'
+  newIconplay7.style.filter = 'contrast(20%)'
+  newIconplay8.style.filter = 'contrast(20%)'
+  newIconplay9.style.filter = 'contrast(20%)'
+  newIconplay10.style.filter = 'contrast(20%)'
+  newIconplay11.style.filter = 'contrast(20%)'
+  newIconplay12.style.filter = 'contrast(20%)'
+  newIconplay1.src = 'images/image-proyect/play.svg'
+  newIconplay2.src = 'images/image-proyect/play.svg'
+  newIconplay3.src = 'images/image-proyect/play.svg'
+  newIconplay4.src = 'images/image-proyect/play.svg'
+  newIconplay5.src = 'images/image-proyect/play.svg'
+  newIconplay6.src = 'images/image-proyect/play.svg'
+  newIconplay7.src = 'images/image-proyect/play.svg'
+  newIconplay8.src = 'images/image-proyect/play.svg'
+  newIconplay9.src = 'images/image-proyect/play.svg'
+  newIconplay10.src = 'images/image-proyect/play.svg'
+  newIconplay11.src = 'images/image-proyect/play.svg'
+  newIconplay12.src = 'images/image-proyect/play.svg'
 }
 
 //a mi
@@ -606,14 +645,3 @@ function reproducirNewSong12 () {
   newSongList1.pause();
 }
 
-const min = 1;
-const max = 12;
-
-function getRandomArbitrary() {
-  const aleatorio = Math.round( Math.random() * (max - min) + min)
-  console.log(aleatorio)
-}
-
-function reproSongAleatorio(getRandomArbitrary) {
-  newSongListgetRandomArbitrary.play();
-}

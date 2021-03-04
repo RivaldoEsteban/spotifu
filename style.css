@@ -85,6 +85,7 @@ body{
   bottom: 0;
   display: flex;
   align-items: center;
+  height: 10vh;
 }
 
 .footer-song {
@@ -390,7 +391,10 @@ hr {
   width: 100%;
   height: 90vh;
   overflow: auto;
-  /* padding-bottom: 20px; */
+}
+
+.album-list-container {
+  /* height: 500px; */
 }
 
 .images-content{
@@ -622,7 +626,9 @@ hr {
   .footer-song {
     display: none;
   }
-
+  .hero-content {
+    display: none;
+  }
   .reproductor {
     display: none;
   }
@@ -733,7 +739,6 @@ hr {
     margin: 0px 20px;
   }
   .footer-500px {
-    height: 115px;
     box-sizing: border-box;
     position: sticky;
     bottom: 0;
@@ -761,14 +766,15 @@ hr {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 60px;
     padding: 5px 0;
     box-sizing: border-box;
   }
 
   .footer-500px-icons div {
+    text-align: center;
+    width: 38px;
+    height: 42px;
     margin: 4px 20px;
-    height: 50px;
   }
 
   .footer-500px-icons img {
@@ -778,7 +784,7 @@ hr {
 
   .footer-500px-icons p {
     margin: 0;
-    height: 25px;
+    font-size: 12px;
   }
 
   hr {
@@ -859,17 +865,19 @@ hr {
 .new-footer {
   display: flex;
   justify-content: center;
-  height:  60px;
-  border-top: 1px solid black ;
-  padding: 5px 0;
+  text-align: center;
+  height: 60px;
   box-sizing: border-box;
 }
+.new-footer div {
+  margin: auto 20px;
+}
 .new-footer img {
-  width: 22px;
-  filter: invert(100%);
-  margin: 0 30px;
+  filter: invert(90%);
+  height: 25px;
 }
 .new-footer-container {
+  box-sizing: border-box;
   position: sticky;
   bottom: 0;
   right: 0;
@@ -959,16 +967,16 @@ hr {
 
 .new-footer div {
   text-align: center;
+  width: 38px;
+  height: 42px;
 }
 
-/* .icon-volver-home {
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: 0;
-  background: rgb(27, 27, 184);
-  z-index: 100;
-} */
+.new-footer p {
+  margin: 0;
+  font-size: 12px;
+}
+
+
 
 .icon-volver-home img {
   margin: 20px 20px 10px;
