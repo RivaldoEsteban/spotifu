@@ -263,6 +263,19 @@ function remplazarSong1() {
   nameSong.textContent = song1.name
   artista.textContent = song1.artist
   changeColor()
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('1')
 
 };
@@ -271,6 +284,19 @@ function remplazarSong2() {
   nameSong.textContent = song2.name
   artista.textContent = song2.artist
   changeColor()
+  audio1.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('2')
 };
 
@@ -279,6 +305,19 @@ function remplazarSong3() {
   nameSong.textContent = song3.name
   artista.textContent = song3.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('3')
 };
 
@@ -287,6 +326,19 @@ function remplazarSong4() {
   nameSong.textContent = song4.name
   artista.textContent = song4.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('4')
 };
 
@@ -295,6 +347,19 @@ function remplazarSong5() {
   nameSong.textContent = song5.name
   artista.textContent = song5.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('5')
 };
 
@@ -303,6 +368,19 @@ function remplazarSong6() {
   nameSong.textContent = song6.name
   artista.textContent = song6.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();audio6.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('6')
 };
 
@@ -311,6 +389,19 @@ function remplazarSong7() {
   nameSong.textContent = song7.name
   artista.textContent = song7.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('7')
 };
 
@@ -319,6 +410,19 @@ function remplazarSong8() {
   nameSong.textContent = song8.name
   artista.textContent = song8.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('8')
 }
 
@@ -327,6 +431,19 @@ function remplazarSong9() {
   nameSong.textContent = song9.name
   artista.textContent = song9.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('9')
 };
 
@@ -335,6 +452,19 @@ function remplazarSong10() {
   nameSong.textContent = song10.name
   artista.textContent = song10.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('10')
 };
 
@@ -343,6 +473,19 @@ function remplazarSong11() {
   nameSong.textContent = song11.name
   artista.textContent = song11.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio12.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('11')
 };
 
@@ -351,6 +494,19 @@ function remplazarSong12() {
   nameSong.textContent = song12.name
   artista.textContent = song12.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio13.pause();
+  audio14.pause();
   reproducirMusicDesktop('12')
 };
 
@@ -359,6 +515,19 @@ function remplazarSong13() {
   nameSong.textContent = song13.name
   artista.textContent = song13.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio14.pause();
   reproducirMusicDesktop('13')
 };
 
@@ -367,6 +536,19 @@ function remplazarSong14() {
   nameSong.textContent = song14.name
   artista.textContent = song14.artist
   changeColor()
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
+  audio5.pause();
+  audio6.pause();
+  audio7.pause();
+  audio8.pause();
+  audio9.pause();
+  audio10.pause();
+  audio11.pause();
+  audio12.pause();
+  audio13.pause();
   reproducirMusicDesktop('14')
 };
 
@@ -400,7 +582,9 @@ pauseButton.style.cursor = 'pointer'
 function reproducirMusicDesktop(song){
   const listSong = document.getElementById(`audio${song}`)
   const iconPlay = document.getElementById(`icon${song}`)
-
+  document.querySelectorAll('.icon').forEach((el) => {
+    el.src = 'images/image-proyect/play.svg'
+  })
   if ((listSong.paused == false) && (listSong.ended == false)){
     iconPlay.src = 'images/image-proyect/play.svg'
     button.textContent = 'Reproducir'
