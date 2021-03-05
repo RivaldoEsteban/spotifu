@@ -240,283 +240,7 @@ const song14 = {
 }
 const reproduction1Controls = document.getElementById('pause')
 
-function remplazarSong1() {
-  imageSong.src = song1.cover;
-  nameSong.textContent = song1.name
-  artista.textContent = song1.artist
-  changeColor()
-  reproducir1(audio1, icon1)
-  pause();
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong2() {
-  imageSong.src = song2.cover;
-  nameSong.textContent = song2.name
-  artista.textContent = song2.artist
-  changeColor()
-  reproducir1(audio2, icon2)
-  pause()
-  icon1.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-
-function remplazarSong3() {
-  imageSong.src = song3.cover;
-  nameSong.textContent = song3.name
-  artista.textContent = song3.artist
-  changeColor()
-  reproducir1(audio3, icon3)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong4() {
-  imageSong.src = song4.cover;
-  nameSong.textContent = song4.name
-  artista.textContent = song4.artist
-  changeColor()
-  reproducir1(audio4,icon4)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong5() {
-  imageSong.src = song5.cover;
-  nameSong.textContent = song5.name
-  artista.textContent = song5.artist
-  changeColor()
-  reproducir1(audio5,icon5)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong6() {
-  imageSong.src = song6.cover;
-  nameSong.textContent = song6.name
-  artista.textContent = song6.artist
-  changeColor()
-  reproducir1(audio6,icon6)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong7() {
-  imageSong.src = song7.cover;
-  nameSong.textContent = song7.name
-  artista.textContent = song7.artist
-  changeColor()
-  reproducir1(audio7,icon7)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong8() {
-  imageSong.src = song8.cover;
-  nameSong.textContent = song8.name
-  artista.textContent = song8.artist
-  changeColor()
-  reproducir1(audio8,icon8)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-}
-function remplazarSong9() {
-  imageSong.src = song9.cover;
-  nameSong.textContent = song9.name
-  artista.textContent = song9.artist
-  changeColor()
-  reproducir1(audio9,icon9)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong10() {
-  imageSong.src = song10.cover;
-  nameSong.textContent = song10.name
-  artista.textContent = song10.artist
-  changeColor()
-  reproducir1(audio10,icon10)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function remplazarSong11() {
-  imageSong.src = song11.cover;
-  nameSong.textContent = song11.name
-  artista.textContent = song11.artist
-  changeColor()
-  reproducir1(audio11,icon11)
-  pause();
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-// audio10.play();
-function remplazarSong12() {
-  imageSong.src = song12.cover;
-  nameSong.textContent = song12.name
-  artista.textContent = song12.artist
-  changeColor()
-  reproducir1(audio12,icon12)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-
-function remplazarSong13() {
-  imageSong.src = song13.cover;
-  nameSong.textContent = song13.name
-  artista.textContent = song13.artist
-  changeColor()
-  reproducir1(audio13,icon13)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
-  icon14.src = 'images/image-proyect/play.svg'
-};
-function pause() {
+function pauseSongList() {
   audio1.pause();
   audio2.pause();
   audio3.pause();
@@ -529,27 +253,121 @@ function pause() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
+  audio13.pause();
+  audio14.pause();
 }
+
+
+function remplazarSong1() {
+  imageSong.src = song1.cover;
+  nameSong.textContent = song1.name
+  artista.textContent = song1.artist
+  changeColor()
+  reproducirMusicDesktop('1')
+
+};
+function remplazarSong2() {
+  imageSong.src = song2.cover;
+  nameSong.textContent = song2.name
+  artista.textContent = song2.artist
+  changeColor()
+  reproducirMusicDesktop('2')
+};
+
+function remplazarSong3() {
+  imageSong.src = song3.cover;
+  nameSong.textContent = song3.name
+  artista.textContent = song3.artist
+  changeColor()
+  reproducirMusicDesktop('3')
+};
+
+function remplazarSong4() {
+  imageSong.src = song4.cover;
+  nameSong.textContent = song4.name
+  artista.textContent = song4.artist
+  changeColor()
+  reproducirMusicDesktop('4')
+};
+
+function remplazarSong5() {
+  imageSong.src = song5.cover;
+  nameSong.textContent = song5.name
+  artista.textContent = song5.artist
+  changeColor()
+  reproducirMusicDesktop('5')
+};
+
+function remplazarSong6() {
+  imageSong.src = song6.cover;
+  nameSong.textContent = song6.name
+  artista.textContent = song6.artist
+  changeColor()
+  reproducirMusicDesktop('6')
+};
+
+function remplazarSong7() {
+  imageSong.src = song7.cover;
+  nameSong.textContent = song7.name
+  artista.textContent = song7.artist
+  changeColor()
+  reproducirMusicDesktop('7')
+};
+
+function remplazarSong8() {
+  imageSong.src = song8.cover;
+  nameSong.textContent = song8.name
+  artista.textContent = song8.artist
+  changeColor()
+  reproducirMusicDesktop('8')
+}
+
+function remplazarSong9() {
+  imageSong.src = song9.cover;
+  nameSong.textContent = song9.name
+  artista.textContent = song9.artist
+  changeColor()
+  reproducirMusicDesktop('9')
+};
+
+function remplazarSong10() {
+  imageSong.src = song10.cover;
+  nameSong.textContent = song10.name
+  artista.textContent = song10.artist
+  changeColor()
+  reproducirMusicDesktop('10')
+};
+
+function remplazarSong11() {
+  imageSong.src = song11.cover;
+  nameSong.textContent = song11.name
+  artista.textContent = song11.artist
+  changeColor()
+  reproducirMusicDesktop('11')
+};
+
+function remplazarSong12() {
+  imageSong.src = song12.cover;
+  nameSong.textContent = song12.name
+  artista.textContent = song12.artist
+  changeColor()
+  reproducirMusicDesktop('12')
+};
+
+function remplazarSong13() {
+  imageSong.src = song13.cover;
+  nameSong.textContent = song13.name
+  artista.textContent = song13.artist
+  changeColor()
+  reproducirMusicDesktop('13')
+};
+
 function remplazarSong14() {
   imageSong.src = song14.cover;
   nameSong.textContent = song14.name
   artista.textContent = song14.artist
   changeColor()
-  reproducir1(audio14,icon14)
-  pause()
-  icon2.src = 'images/image-proyect/play.svg'
-  icon3.src = 'images/image-proyect/play.svg'
-  icon4.src = 'images/image-proyect/play.svg'
-  icon5.src = 'images/image-proyect/play.svg'
-  icon6.src = 'images/image-proyect/play.svg'
-  icon7.src = 'images/image-proyect/play.svg'
-  icon8.src = 'images/image-proyect/play.svg'
-  icon9.src = 'images/image-proyect/play.svg'
-  icon10.src = 'images/image-proyect/play.svg'
-  icon11.src = 'images/image-proyect/play.svg'
-  icon12.src = 'images/image-proyect/play.svg'
-  icon13.src = 'images/image-proyect/play.svg'
-  icon1.src = 'images/image-proyect/play.svg'
+  reproducirMusicDesktop('14')
 };
 
 let f = false
@@ -576,20 +394,31 @@ function changeColor(){
 
 const pauseButton = document.getElementById('pause')
 pauseButton.style.cursor = 'pointer'
-// pause.addEventListener('click', pauseMusic)
-
-//
 
 
 // pauseMusic()
+function reproducirMusicDesktop(song){
+  const listSong = document.getElementById(`audio${song}`)
+  const iconPlay = document.getElementById(`icon${song}`)
+
+  if ((listSong.paused == false) && (listSong.ended == false)){
+    iconPlay.src = 'images/image-proyect/play.svg'
+    button.textContent = 'Reproducir'
+    listSong.pause();
+  } else {
+    iconPlay.src = 'images/image-proyect/pause.svg'
+    pauseButton.src = 'images/image-proyect/pause.svg'
+    button.textContent = 'Pause'
+    PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'
+    pauseButton.style.filter = 'invert()'
+    listSong.play();
+  }
+}
 
 
 function reproducir1(id){
-  // debugger
-
   const audioN = document.getElementById(`newsong${id}`)
   const icono = document.getElementById(`newIcon${id}`)
-  // newIconplay12.src = 'images/image-proyect/play.svg'
   document.querySelectorAll('.icono-play-music').forEach((el) => {
     el.src = 'images/image-proyect/play.svg'
     el.style.filter = 'contrast(20%)'
@@ -598,8 +427,6 @@ function reproducir1(id){
     icono.src = 'images/image-proyect/play.svg'
     pauseButton.src = 'images/image-proyect/play.svg'
     button.textContent= 'Reproducir'
-    // icono.style.filter = 'invert()'
-    // audioN.pause();
     pause()
   } else {
     icono.src = 'images/image-proyect/pause.svg'

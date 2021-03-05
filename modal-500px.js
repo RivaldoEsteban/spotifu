@@ -159,6 +159,17 @@ function reproducirNewSong1 () {
   imageFooter.src ='images/mobile/nicky.jpeg'
   nameSongFooter.textContent = 'Ella no es Tuya - Remix'
   nameArtistFooter.textContent = 'Mike towers,Nicky Nicole'
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('1')
   newIconplay1.style.filter = 'invert(100%)'
 }
@@ -166,6 +177,17 @@ function reproducirNewSong2 () {
   imageFooter.src = 'images/mobile/boza.jpeg'
   nameSongFooter.textContent = 'Hecha Pa Mi'
   nameArtistFooter.textContent = 'Boza'
+  newSongList1.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('2')
   newIconplay2.style.filter = 'invert(100%)'
 }
@@ -189,6 +211,17 @@ function reproducirNewSong3 () {
   imageFooter.src = 'images/mobile/cazzu.jpeg'
   nameSongFooter.textContent = 'Solita - Remix'
   nameArtistFooter.textContent = 'Mechi Pieretti, Cazzu'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('3')
   newIconplay3.style.filter = 'invert(100%)'
 }
@@ -196,6 +229,17 @@ function reproducirNewSong4 () {
   imageFooter.src = 'images/mobile/dibujame.jpeg'
   nameSongFooter.textContent = 'Dibujame'
   nameArtistFooter.textContent = 'Rich Vagos, Samantha'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('4')
   newIconplay4.style.filter = 'invert(100%)'
 }
@@ -203,6 +247,17 @@ function reproducirNewSong5 () {
   imageFooter.src = 'images/mobile/endgame.jpeg'
   nameSongFooter.textContent = 'Come and Get Your Love'
   nameArtistFooter.textContent = 'Redbone'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('5')
   newIconplay5.style.filter = 'invert(100%)'
 }
@@ -210,6 +265,17 @@ function reproducirNewSong6 () {
   imageFooter.src = 'images/mobile/futuro.jpeg'
   nameSongFooter.textContent = 'Life is Good'
   nameArtistFooter.textContent = 'Future, Drake'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('6')
   newIconplay6.style.filter = 'invert(100%)'
 }
@@ -217,6 +283,17 @@ function reproducirNewSong7 () {
   imageFooter.src = 'images/mobile/londra.jpeg'
   nameSongFooter.textContent = 'Solo Pienso en Ti'
   nameArtistFooter.textContent = 'Paulo Londra, Justin Quiles'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('7')
   newIconplay7.style.filter = 'invert(100%)'
 }
@@ -224,6 +301,17 @@ function reproducirNewSong8 () {
   imageFooter.src = 'images/mobile/pont_pa_mi.jpeg'
   nameSongFooter.textContent = 'Ponte Pa Mi'
   nameArtistFooter.textContent = 'Justin Quiles'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('8')
   newIconplay8.style.filter = 'invert(100%)'
 }
@@ -231,6 +319,17 @@ function reproducirNewSong9 () {
   imageFooter.src = 'images/mobile/postmalone.jpg'
   nameSongFooter.textContent = 'Circles'
   nameArtistFooter.textContent = 'Post Malone'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList10.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('9')
   newIconplay9.style.filter = 'invert(100%)'
 
@@ -239,6 +338,17 @@ function reproducirNewSong10 () {
   imageFooter.src = 'images/mobile/relsb.jpeg'
   nameSongFooter.textContent = 'A Mi'
   nameArtistFooter.textContent = 'Rels B'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList11.pause();
+  newSongList12.pause();
   reproducir1('10')
   newIconplay10.style.filter = 'invert(100%)'
 
@@ -246,7 +356,18 @@ function reproducirNewSong10 () {
 function reproducirNewSong11 () {
   imageFooter.src = 'images/mobile/room.jpeg'
   nameSongFooter.textContent = 'Dancing in my Room'
-  nameArtistFooter.textContent = '347 Aidan  '
+  nameArtistFooter.textContent = '347 Aidan'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList12.pause();
   reproducir1('11')
   newIconplay11.style.filter = 'invert(100%)'
 
@@ -255,6 +376,17 @@ function reproducirNewSong12 () {
   imageFooter.src = 'images/mobile/victoria.jpeg'
   nameSongFooter.textContent = 'Victoria'
   nameArtistFooter.textContent = 'Lunay, Beéle'
+  newSongList1.pause();
+  newSongList2.pause();
+  newSongList3.pause();
+  newSongList4.pause();
+  newSongList5.pause();
+  newSongList6.pause();
+  newSongList7.pause();
+  newSongList8.pause();
+  newSongList9.pause();
+  newSongList10.pause();
+  newSongList11.pause();
   reproducir1('12')
   newIconplay12.style.filter = 'invert(100%)'
 }
