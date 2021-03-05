@@ -377,7 +377,7 @@ function remplazarSong6() {
   audio8.pause();
   audio9.pause();
   audio10.pause();
-  audio11.pause();audio6.pause();
+  audio11.pause();
   audio12.pause();
   audio13.pause();
   audio14.pause();
