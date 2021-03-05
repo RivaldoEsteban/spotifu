@@ -743,6 +743,8 @@ hr {
   }
   .footer-grupo1-reproductor div {
     margin: 0px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
   }
   .footer-500px {
     box-sizing: border-box;
@@ -951,6 +953,7 @@ hr {
 
 .footer-img-name {
   display: flex;
+  align-items: center;
 }
 .footer-img-name img{
   aspect-ratio:unset;
@@ -959,8 +962,12 @@ hr {
 }
 
 .name-songs {
-  height: 39px;
-  margin: auto 20px;
+  margin: 0px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  height: 37px;
+  /* height: 39px;
+  margin: auto 20px; */
 }
 
 .name-songs marquee {
@@ -969,11 +976,8 @@ hr {
   height: 16px;
 }
 .name-songs p {
+  margin: 3px 0;
   opacity: .6;
-  margin: 0;
-  font-size: 12px;
-  height: 14px;
-
 }
 
 .new-footer div {
