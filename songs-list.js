@@ -246,19 +246,7 @@ function remplazarSong1() {
   artista.textContent = song1.artist
   changeColor()
   reproducir1(audio1, icon1)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -279,19 +267,7 @@ function remplazarSong2() {
   artista.textContent = song2.artist
   changeColor()
   reproducir1(audio2, icon2)
-  audio1.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon1.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -313,19 +289,7 @@ function remplazarSong3() {
   artista.textContent = song3.artist
   changeColor()
   reproducir1(audio3, icon3)
-   audio1.pause();
-  audio2.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -346,19 +310,7 @@ function remplazarSong4() {
   artista.textContent = song4.artist
   changeColor()
   reproducir1(audio4,icon4)
-  audio2.pause();
-  audio3.pause();
-  audio1.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon1.src = 'images/image-proyect/play.svg'
@@ -379,19 +331,7 @@ function remplazarSong5() {
   artista.textContent = song5.artist
   changeColor()
   reproducir1(audio5,icon5)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio1.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -412,19 +352,7 @@ function remplazarSong6() {
   artista.textContent = song6.artist
   changeColor()
   reproducir1(audio6,icon6)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio1.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -445,19 +373,7 @@ function remplazarSong7() {
   artista.textContent = song7.artist
   changeColor()
   reproducir1(audio7,icon7)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio1.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -478,19 +394,7 @@ function remplazarSong8() {
   artista.textContent = song8.artist
   changeColor()
   reproducir1(audio8,icon8)
-   audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio1.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -511,19 +415,7 @@ function remplazarSong9() {
   artista.textContent = song9.artist
   changeColor()
   reproducir1(audio9,icon9)
-   audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio1.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -544,19 +436,7 @@ function remplazarSong10() {
   artista.textContent = song10.artist
   changeColor()
   reproducir1(audio10,icon10)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio1.pause();
-  audio11.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -577,19 +457,7 @@ function remplazarSong11() {
   artista.textContent = song11.artist
   changeColor()
   reproducir1(audio11,icon11)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio1.pause();
-  audio12.pause();
-  audio13.pause();
-  audio14.pause();
+  pause();
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -611,19 +479,7 @@ function remplazarSong12() {
   artista.textContent = song12.artist
   changeColor()
   reproducir1(audio12,icon12)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio1.pause();
-  audio13.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -645,19 +501,7 @@ function remplazarSong13() {
   artista.textContent = song13.artist
   changeColor()
   reproducir1(audio13,icon13)
-  audio2.pause();
-  audio3.pause();
-  audio4.pause();
-  audio5.pause();
-  audio6.pause();
-  audio7.pause();
-  audio8.pause();
-  audio9.pause();
-  audio10.pause();
-  audio11.pause();
-  audio12.pause();
-  audio1.pause();
-  audio14.pause();
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -672,13 +516,8 @@ function remplazarSong13() {
   icon1.src = 'images/image-proyect/play.svg'
   icon14.src = 'images/image-proyect/play.svg'
 };
-
-function remplazarSong14() {
-  imageSong.src = song14.cover;
-  nameSong.textContent = song14.name
-  artista.textContent = song14.artist
-  changeColor()
-  reproducir1(audio14,icon14)
+function pause() {
+  audio1.pause();
   audio2.pause();
   audio3.pause();
   audio4.pause();
@@ -690,8 +529,14 @@ function remplazarSong14() {
   audio10.pause();
   audio11.pause();
   audio12.pause();
-  audio13.pause();
-  audio1.pause();
+}
+function remplazarSong14() {
+  imageSong.src = song14.cover;
+  nameSong.textContent = song14.name
+  artista.textContent = song14.artist
+  changeColor()
+  reproducir1(audio14,icon14)
+  pause()
   icon2.src = 'images/image-proyect/play.svg'
   icon3.src = 'images/image-proyect/play.svg'
   icon4.src = 'images/image-proyect/play.svg'
@@ -729,8 +574,8 @@ function changeColor(){
   button.textContent = 'Pause'
 };
 
-const pause = document.getElementById('pause')
-pause.style.cursor = 'pointer'
+const pauseButton = document.getElementById('pause')
+pauseButton.style.cursor = 'pointer'
 // pause.addEventListener('click', pauseMusic)
 
 //
@@ -739,21 +584,32 @@ pause.style.cursor = 'pointer'
 // pauseMusic()
 
 
-function reproducir1(audioN , icono ){
+function reproducir1(id){
+  // debugger
+
+  const audioN = document.getElementById(`newsong${id}`)
+  const icono = document.getElementById(`newIcon${id}`)
+  // newIconplay12.src = 'images/image-proyect/play.svg'
+  document.querySelectorAll('.icono-play-music').forEach((el) => {
+    el.src = 'images/image-proyect/play.svg'
+    el.style.filter = 'contrast(20%)'
+  })
   if((audioN.paused == false) && (audioN.ended == false)){
     icono.src = 'images/image-proyect/play.svg'
-    pause.src = 'images/image-proyect/play.svg'
+    pauseButton.src = 'images/image-proyect/play.svg'
     button.textContent= 'Reproducir'
-    pause.style.filter = 'invert()'
-    audioN.pause();
+    // icono.style.filter = 'invert()'
+    // audioN.pause();
+    pause()
   } else {
     icono.src = 'images/image-proyect/pause.svg'
-    pause.src = 'images/image-proyect/pause.svg'
+    pauseButton.src = 'images/image-proyect/pause.svg'
     button.textContent= 'Pause'
     PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'
-    pause.style.filter = 'invert()'
+    pauseButton.style.filter = 'invert()'
     audioN.play();
   }
+
 }
 
 // let name2 = null;

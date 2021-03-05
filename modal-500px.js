@@ -99,11 +99,13 @@ function getRandomArbitrary() {
 }
 
 function reproSongAleatorio() {
-  let songAleatorio = `newSongList${getRandomArbitrary()}`
-  console.log(songAleatorio)
+  let id = getRandomArbitrary()
+  pause()
+  reproducir1(id)
 }
-reproSongAleatorio()
-
+// reproSongAleatorio()
+const random = document.getElementById('btn-random')
+random.addEventListener('click', reproSongAleatorio)
 newIconplay1.addEventListener('click' ,reproducirNewSong1, false)
 newIconplay2.addEventListener('click' ,reproducirNewSong2, false)
 newIconplay3.addEventListener('click' ,reproducirNewSong3, false)
@@ -125,18 +127,7 @@ function printNuevaListSong() {
 function volverHome500() {
   modalPhone.style.display = 'block'
   printListSong.style.display = 'none'
-  newSongList1.pause();
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
+  pause()
   newIconplay1.style.filter = 'contrast(20%)'
   newIconplay2.style.filter = 'contrast(20%)'
   newIconplay3.style.filter = 'contrast(20%)'
@@ -168,71 +159,20 @@ function reproducirNewSong1 () {
   imageFooter.src ='images/mobile/nicky.jpeg'
   nameSongFooter.textContent = 'Ella no es Tuya - Remix'
   nameArtistFooter.textContent = 'Mike towers,Nicky Nicole'
-  reproducir1(newSongList1, newIconplay1)
+  reproducir1('1')
   newIconplay1.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong2 () {
   imageFooter.src = 'images/mobile/boza.jpeg'
   nameSongFooter.textContent = 'Hecha Pa Mi'
   nameArtistFooter.textContent = 'Boza'
-  reproducir1(newSongList2, newIconplay2)
+  reproducir1('2')
   newIconplay2.style.filter = 'invert(100%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
+}
+
+function pause(){
   newSongList1.pause();
+  newSongList2.pause();
   newSongList3.pause();
   newSongList4.pause();
   newSongList5.pause();
@@ -244,404 +184,78 @@ function reproducirNewSong2 () {
   newSongList11.pause();
   newSongList12.pause();
 }
+
 function reproducirNewSong3 () {
   imageFooter.src = 'images/mobile/cazzu.jpeg'
   nameSongFooter.textContent = 'Solita - Remix'
   nameArtistFooter.textContent = 'Mechi Pieretti, Cazzu'
-  reproducir1(newSongList3, newIconplay3)
+  reproducir1('3')
   newIconplay3.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList1.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong4 () {
   imageFooter.src = 'images/mobile/dibujame.jpeg'
   nameSongFooter.textContent = 'Dibujame'
   nameArtistFooter.textContent = 'Rich Vagos, Samantha'
-  reproducir1(newSongList4, newIconplay4)
+  reproducir1('4')
   newIconplay4.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList1.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong5 () {
   imageFooter.src = 'images/mobile/endgame.jpeg'
   nameSongFooter.textContent = 'Come and Get Your Love'
   nameArtistFooter.textContent = 'Redbone'
-  reproducir1(newSongList5, newIconplay5)
+  reproducir1('5')
   newIconplay5.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList1.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong6 () {
   imageFooter.src = 'images/mobile/futuro.jpeg'
   nameSongFooter.textContent = 'Life is Good'
   nameArtistFooter.textContent = 'Future, Drake'
-  reproducir1(newSongList6, newIconplay6)
+  reproducir1('6')
   newIconplay6.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList1.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong7 () {
   imageFooter.src = 'images/mobile/londra.jpeg'
   nameSongFooter.textContent = 'Solo Pienso en Ti'
   nameArtistFooter.textContent = 'Paulo Londra, Justin Quiles'
-  reproducir1(newSongList7, newIconplay7)
+  reproducir1('7')
   newIconplay7.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList1.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong8 () {
   imageFooter.src = 'images/mobile/pont_pa_mi.jpeg'
   nameSongFooter.textContent = 'Ponte Pa Mi'
   nameArtistFooter.textContent = 'Justin Quiles'
-  reproducir1(newSongList8, newIconplay8)
+  reproducir1('8')
   newIconplay8.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList1.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
 }
 function reproducirNewSong9 () {
   imageFooter.src = 'images/mobile/postmalone.jpg'
   nameSongFooter.textContent = 'Circles'
   nameArtistFooter.textContent = 'Post Malone'
-  reproducir1(newSongList9, newIconplay9)
+  reproducir1('9')
   newIconplay9.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList1.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList12.pause();
+
 }
 function reproducirNewSong10 () {
   imageFooter.src = 'images/mobile/relsb.jpeg'
   nameSongFooter.textContent = 'A Mi'
   nameArtistFooter.textContent = 'Rels B'
-  reproducir1(newSongList10, newIconplay10)
+  reproducir1('10')
   newIconplay10.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList1.pause();
-  newSongList11.pause();
-  newSongList12.pause();
+
 }
 function reproducirNewSong11 () {
   imageFooter.src = 'images/mobile/room.jpeg'
   nameSongFooter.textContent = 'Dancing in my Room'
   nameArtistFooter.textContent = '347 Aidan  '
-  reproducir1(newSongList11, newIconplay11)
+  reproducir1('11')
   newIconplay11.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay12.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newIconplay12.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList1.pause();
-  newSongList12.pause();
+
 }
 function reproducirNewSong12 () {
   imageFooter.src = 'images/mobile/victoria.jpeg'
   nameSongFooter.textContent = 'Victoria'
   nameArtistFooter.textContent = 'Lunay, Beéle'
-  reproducir1(newSongList12, newIconplay12)
+  reproducir1('12')
   newIconplay12.style.filter = 'invert(100%)'
-  newIconplay2.style.filter = 'contrast(20%)'
-  newIconplay3.style.filter = 'contrast(20%)'
-  newIconplay4.style.filter = 'contrast(20%)'
-  newIconplay5.style.filter = 'contrast(20%)'
-  newIconplay6.style.filter = 'contrast(20%)'
-  newIconplay7.style.filter = 'contrast(20%)'
-  newIconplay8.style.filter = 'contrast(20%)'
-  newIconplay9.style.filter = 'contrast(20%)'
-  newIconplay10.style.filter = 'contrast(20%)'
-  newIconplay11.style.filter = 'contrast(20%)'
-  newIconplay1.style.filter = 'contrast(20%)'
-  newIconplay2.src = 'images/image-proyect/play.svg'
-  newIconplay3.src = 'images/image-proyect/play.svg'
-  newIconplay4.src = 'images/image-proyect/play.svg'
-  newIconplay5.src = 'images/image-proyect/play.svg'
-  newIconplay6.src = 'images/image-proyect/play.svg'
-  newIconplay7.src = 'images/image-proyect/play.svg'
-  newIconplay8.src = 'images/image-proyect/play.svg'
-  newIconplay9.src = 'images/image-proyect/play.svg'
-  newIconplay10.src = 'images/image-proyect/play.svg'
-  newIconplay11.src = 'images/image-proyect/play.svg'
-  newIconplay1.src = 'images/image-proyect/play.svg'
-  newSongList2.pause();
-  newSongList3.pause();
-  newSongList4.pause();
-  newSongList5.pause();
-  newSongList6.pause();
-  newSongList7.pause();
-  newSongList8.pause();
-  newSongList9.pause();
-  newSongList10.pause();
-  newSongList11.pause();
-  newSongList1.pause();
 }
 
