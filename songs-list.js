@@ -603,17 +603,20 @@ function reproducirMusicDesktop(song){
 function reproducir1(id){
   const audioN = document.getElementById(`newsong${id}`)
   const icono = document.getElementById(`newIcon${id}`)
+  // icono.style.filter = 'invert(100%)'
   document.querySelectorAll('.icono-play-music').forEach((el) => {
     el.src = 'images/image-proyect/play.svg'
     el.style.filter = 'contrast(20%)'
   })
   if((audioN.paused == false) && (audioN.ended == false)){
     icono.src = 'images/image-proyect/play.svg'
+    icono.style.filter = 'invert(100%)'
     pauseButton.src = 'images/image-proyect/play.svg'
     button.textContent= 'Reproducir'
     pause()
   } else {
     icono.src = 'images/image-proyect/pause.svg'
+    icono.style.filter = 'invert(100%)'
     pauseButton.src = 'images/image-proyect/pause.svg'
     button.textContent= 'Pause'
     PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'

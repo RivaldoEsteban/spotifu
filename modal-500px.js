@@ -100,8 +100,11 @@ function getRandomArbitrary() {
 
 function reproSongAleatorio() {
   let id = getRandomArbitrary()
+  const iconRandom = document.getElementById(`icon${id}`)
+  console.log(iconRandom)
   pause()
   reproducir1(id)
+  // iconRandom.style.filter = 'invert(100%)'
 }
 // reproSongAleatorio()
 const random = document.getElementById('btn-random')
