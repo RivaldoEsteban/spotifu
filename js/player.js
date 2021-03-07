@@ -20,7 +20,13 @@ class Player {
   }
   handleTimeUpdate() {
     timeline.value = this.currentTime
+    const timeStart = document.getElementById('time-start')
+    timeStart.textContent = (this.currentTime / 60 ).toFixed(2)
+    const timeEnd = document.getElementById('time-end')
+
+    timeEnd.textContent = (this.duration.toFixed(0)/60).toFixed(2)
   }
+
   handleTimelineChange = () => {
     this.audio.removeEventListener('timeupdate', this.handleTimeUpdate)
     this.audio.currentTime = timeline.value
@@ -30,5 +36,10 @@ class Player {
 }
 
 const player = new Player
+//
+
+
+
+
 
 export default player

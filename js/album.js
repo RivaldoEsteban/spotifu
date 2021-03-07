@@ -51,7 +51,7 @@ albumCTA.addEventListener('click', toggleAlbumPlaying)
 function pause() {
   const audio = document.querySelector('audio[is-playing=true]')
   if(audio) {
-    const id = audio.id.replace('audio', '')
+    const id = audio.id.replace('audio', '') //numero id para
     const parent = document.getElementById(id)
     parent.querySelector('.icon').src = 'images/image-proyect/play.svg'
     audio.removeAttribute('is-playing')
@@ -94,6 +94,7 @@ function toggleAlbumPlaying() {
   }
   replace('01')
   albumCTA.textContent = 'Pausar'
+  console.log('btn')
 };
 
 const pauseButton = document.getElementById('pause')
