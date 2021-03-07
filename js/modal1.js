@@ -113,13 +113,17 @@ const btnGm = document.getElementById('btn-gm')
 
 
 
-loginBtn.addEventListener('click' , modalPrincipal)
-btnFb.addEventListener('click' , modalPrincipal)
-btnGm.addEventListener('click' , modalPrincipal)
-function modalPrincipal(){
-  login.style.display ='none'
-  principal.style.display='flex'
-  footer.style.display='flex'
+loginBtn.addEventListener('click', modalPrincipal)
+btnFb.addEventListener('click', modalPrincipal)
+btnGm.addEventListener('click', modalPrincipal)
+
+function modalPrincipal() {
+  login.classList.add('is-hidden')
+  // login.style.display ='none'
+  principal.classList.add('is-visible')
+  footer.classList.add('is-visible')
+  // principal.style.display='flex'
+  // footer.style.display='flex'
 }
 
 
@@ -129,12 +133,12 @@ home.addEventListener('click', SeccionDeInicio)
 
 function canciones(){
   modalHome.style.display = 'none'
-  modalSong.style.display = 'block'
+  modalSong.classList.add('is-visible')
 }
 
 function SeccionDeInicio() {
   modalHome.style.display = 'block'
-  modalSong.style.display = 'none'
+  modalSong.classList.remove('is-visible')
 }
 
 

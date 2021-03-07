@@ -1,0 +1,6 @@
+import './album.js'
+import './modal1.js'
+import './modal-500px.js'
+import './navigation.js'
+import './like-action.js'
+import './player.js'
