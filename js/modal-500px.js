@@ -122,11 +122,8 @@ function reproSongAleatorio() {
   let id = getRandomArbitrary()
   const iconRandom = document.getElementById(`icon${id}`)
   const imageMobile = document.getElementById(`imageMobile${id}`)
-  console.log(imageMobile)
   const nameSongMobile= document.getElementById(`nameSongMobile${id}`)
-  console.log(nameSongMobile)
   const artistSongMobile = document.getElementById(`artistSongMobile${id}`)
-  console.log(artistSongMobile)
   imageFooter.src =  imageMobile.src
   nameSongFooter.textContent = nameSongMobile.textContent
   nameArtistFooter.textContent = artistSongMobile.textContent
@@ -152,7 +149,6 @@ newIconplay12.addEventListener('click' ,reproducirNewSong12, false)
 function printNuevaListSong() {
   modalPhone.style.display = 'none'
   printListSong.style.display = 'block'
-  console.log('hola')
 }
 
 function volverHome500() {
