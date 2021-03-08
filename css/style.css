@@ -4,14 +4,22 @@ body{
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
-/* .wrapper {
-  width: 100vw;
-  height: 100vh;
-} */
+
+.container-proyect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
 .list-content {
   background:  #030303;
   width: 225px;
-  height: 90vh;
+  height: 100%;
+  overflow: auto;
+  padding: 0 5px 20px;
 }
 
 .logo {
@@ -21,6 +29,10 @@ body{
 .container {
   height: 70vh;
   overflow: auto;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .sec-home-explorer-radio {
@@ -77,15 +89,15 @@ body{
 }
 
 .footer {
+  height: 113px;
+  box-sizing: border-box;
   background-color: #242424;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  display: flex;
   align-items: center;
-  height: 110px;
+  width: 100VW;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer-song {
@@ -140,7 +152,9 @@ body{
 .hero-content {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
   padding-left: 40px;
-  width:  100vw;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
   display: none;
 }
 
@@ -149,9 +163,9 @@ body{
 }
 
 .general-container {
-  /* display: flex; */
   width: 100%;
-  display: none;
+  height: 88vh;
+  box-sizing: border-box;
 }
 
 .general-container.is-visible {
@@ -163,7 +177,7 @@ body{
 
 .buscador {
   display: flex;
-  margin-top: 40px;
+  padding-top: 40px;
   gap: 15px;
 }
 
@@ -399,8 +413,13 @@ hr {
 
 .section-inicio-home {
   background: linear-gradient(to top, rgb(19, 18, 18) 60% ,rgb(70, 69, 69));
-  width: 100%;
   overflow: auto;
+  height: 100%;
+}
+
+.container-section-home-song {
+  overflow: auto;
+  width: 100vw;
 }
 
 .album-list-container {
@@ -820,8 +839,6 @@ hr {
     width: 250px;
   }
 }
-
-
 
 @media (max-width: 500px) {
   .section-inicio-home {

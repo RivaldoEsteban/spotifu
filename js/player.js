@@ -23,7 +23,6 @@ class Player {
     const timeStart = document.getElementById('time-start')
     timeStart.textContent = (this.currentTime / 60 ).toFixed(2)
     const timeEnd = document.getElementById('time-end')
-
     timeEnd.textContent = (this.duration.toFixed(0)/60).toFixed(2)
   }
 
