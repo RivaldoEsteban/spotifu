@@ -5,6 +5,7 @@ const retrocederModal = document.getElementById('retrocederModal')
 
 
 const printNewmodal1 = document.getElementById('newmodal1')
+// console.log(printNewmodal1)
 const printNewmodal2 = document.getElementById('newmodal2')
 const printNewmodal3 = document.getElementById('newmodal3')
 const printNewmodal4 = document.getElementById('newmodal4')
@@ -73,16 +74,11 @@ function reproducir1(id) {
   if ((audioN.paused == false) && (audioN.ended == false)) {
     icono.src = 'images/image-proyect/play.svg'
     icono.style.filter = 'invert(100%)'
-    pauseButton.src = 'images/image-proyect/play.svg'
-    button.textContent = 'Reproducir'
     pause()
   } else {
     icono.src = 'images/image-proyect/pause.svg'
     icono.style.filter = 'invert(100%)'
-    pauseButton.src = 'images/image-proyect/pause.svg'
-    button.textContent = 'Pause'
     PerformanceResourceTiming.src = 'images/image-proyect/pause.svg'
-    pauseButton.style.filter = 'invert()'
     audioN.play();
   }
 
@@ -125,12 +121,19 @@ function getRandomArbitrary() {
 function reproSongAleatorio() {
   let id = getRandomArbitrary()
   const iconRandom = document.getElementById(`icon${id}`)
-  console.log(iconRandom)
+  const imageMobile = document.getElementById(`imageMobile${id}`)
+  console.log(imageMobile)
+  const nameSongMobile= document.getElementById(`nameSongMobile${id}`)
+  console.log(nameSongMobile)
+  const artistSongMobile = document.getElementById(`artistSongMobile${id}`)
+  console.log(artistSongMobile)
+  imageFooter.src =  imageMobile.src
+  nameSongFooter.textContent = nameSongMobile.textContent
+  nameArtistFooter.textContent = artistSongMobile.textContent
   pause()
   reproducir1(id)
-  // iconRandom.style.filter = 'invert(100%)'
 }
-// reproSongAleatorio()
+
 const random = document.getElementById('btn-random')
 random.addEventListener('click', reproSongAleatorio)
 newIconplay1.addEventListener('click' ,reproducirNewSong1, false)
@@ -149,6 +152,7 @@ newIconplay12.addEventListener('click' ,reproducirNewSong12, false)
 function printNuevaListSong() {
   modalPhone.style.display = 'none'
   printListSong.style.display = 'block'
+  console.log('hola')
 }
 
 function volverHome500() {
