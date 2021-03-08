@@ -5,7 +5,6 @@ const retrocederModal = document.getElementById('retrocederModal')
 
 
 const printNewmodal1 = document.getElementById('newmodal1')
-// console.log(printNewmodal1)
 const printNewmodal2 = document.getElementById('newmodal2')
 const printNewmodal3 = document.getElementById('newmodal3')
 const printNewmodal4 = document.getElementById('newmodal4')
@@ -418,3 +417,6 @@ function reproducirNewSong12 () {
   newIconplay12.style.filter = 'invert(100%)'
 }
 
+export {
+  reproSongAleatorio
+}

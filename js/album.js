@@ -48,6 +48,12 @@ const albumCTA = document.getElementById('button-pause')
 
 albumCTA.addEventListener('click', toggleAlbumPlaying)
 
+const pauseButton = document.getElementById('pause')
+console.log(pauseButton)
+
+pauseButton.addEventListener('click', toggleAlbumPlaying)
+
+
 function pause() {
   const audio = document.querySelector('audio[is-playing=true]')
   if(audio) {
@@ -56,7 +62,6 @@ function pause() {
     parent.querySelector('.icon').src = 'images/image-proyect/play.svg'
     audio.removeAttribute('is-playing')
     audio.pause()
-    pauseButton.src = 'images/image-proyect/play.svg'
     albumCTA.textContent = 'Reproducir'
     player.stop()
   }
@@ -90,6 +95,7 @@ function toggleAlbumPlaying() {
   const audio = document.querySelector('audio[is-playing=true]')
   if (audio) {
     albumCTA.textContent = 'Reproducir'
+    pauseButton.src = '../images/image-proyect/play.svg'
     return pause()
   }
   replace('01')
@@ -97,9 +103,7 @@ function toggleAlbumPlaying() {
   console.log('btn')
 };
 
-const pauseButton = document.getElementById('pause')
 
-pauseButton.addEventListener('click', toggleAlbumPlaying)
 
 
 function togglePlay(id){
