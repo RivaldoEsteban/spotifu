@@ -417,6 +417,3 @@ function reproducirNewSong12 () {
   newIconplay12.style.filter = 'invert(100%)'
 }
 
-export {
-  reproSongAleatorio
-}

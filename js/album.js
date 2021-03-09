@@ -1,4 +1,5 @@
 import music from './music.js'
+// import reproSongAleatorio  from './modal-500px'
 import {
   timeline,
 } from './constans.js'
@@ -63,6 +64,7 @@ function pause() {
     audio.removeAttribute('is-playing')
     audio.pause()
     albumCTA.textContent = 'Reproducir'
+    pauseButton.src = '/images/image-proyect/play.svg'
     player.stop()
   }
 }

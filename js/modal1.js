@@ -119,11 +119,8 @@ btnGm.addEventListener('click', modalPrincipal)
 
 function modalPrincipal() {
   login.classList.add('is-hidden')
-  // login.style.display ='none'
   principal.classList.add('is-visible')
   footer.classList.add('is-visible')
-  // principal.style.display='flex'
-  // footer.style.display='flex'
 }
 
 
