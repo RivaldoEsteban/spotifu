@@ -2,10 +2,6 @@ import {
   timeline,
 } from './constans.js'
 
-// import {
-//   audioList
-// } from './album.js'
-
 
 class Player {
   play(id) {
@@ -36,9 +32,6 @@ class Player {
 
 const player = new Player
 //
-
-
-
 
 
 export default player

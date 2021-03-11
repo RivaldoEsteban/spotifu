@@ -1,3 +1,5 @@
+//modal home/ albumSongs
+
 const grupo1 = document.getElementById('grupo1')
 const grupo2 = document.getElementById('grupo2')
 const grupo3 = document.getElementById('grupo3')
@@ -137,7 +139,6 @@ function SeccionDeInicio() {
   modalHome.style.display = 'block'
   modalSong.classList.remove('is-visible')
 }
-
 
 
 
